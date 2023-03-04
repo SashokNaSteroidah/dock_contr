@@ -1,3 +1,14 @@
+function checkSign() {
+    if (localStorage.getItem('is_active') === 'active'){
+        window.location.href = "../index";
+    }
+    else {
+        console.log('sign')
+    }
+}
+checkSign()
+
+
 document.querySelector('.signin').onclick = () => {
     document.querySelector('.black_screan').style.display = "block";
     document.querySelector('.signin_window').style.display = "block";
@@ -18,19 +29,41 @@ const users = [
     "admin",
     "admin"
 ];
-let arrUser = [];
+
+let arrUser = {}
+
 
 document.querySelector('.sub_signin').onclick = () => {
-    if(document.querySelector('#email_signin').value == users[0] && document.querySelector('#email_password').value == users[1]) {
+    if(document.querySelector('#email_signin').value === users[0] && document.querySelector('#email_password').value === users[1]) {
         localStorage.clear()
-        localStorage.setItem('login', document.querySelector('#email_signin').value)
-        localStorage.setItem('pass', document.querySelector('#email_password').value)
+        localStorage.setItem('name', 'admin')
+        localStorage.setItem('surname', 'admin')
+        localStorage.setItem('patra', 'admin')
+        localStorage.setItem('email', 'admin')
+        localStorage.setItem('tel', 'admin')
+        localStorage.setItem('inn', 'admin')
+        localStorage.setItem('bank_info', 'admin')
+        localStorage.setItem('address', 'admin')
+        localStorage.setItem('pass', 'admin')
+        localStorage.setItem('is_active', 'active')
         window.location.href = "../index";
         document.querySelector('.black_screan').style.display = "none";
         document.querySelector('.signin_window').style.display = "none";
         document.querySelector('.signup_window').style.display = "none";
     }
-    else if(document.querySelector('#email_signin').value == arrUser['email'] && document.querySelector('#email_password').value == arrUser['pass']) {
+    else if(document.querySelector('#email_signin').value === arrUser['email'] && document.querySelector('#email_password').value === arrUser['pass']) {
+        localStorage.clear()
+        localStorage.setItem('name', arrUser['name'])
+        localStorage.setItem('surname', arrUser['surname'])
+        localStorage.setItem('patra', arrUser['patra'])
+        localStorage.setItem('email', arrUser['email'])
+        localStorage.setItem('tel', arrUser['tel'])
+        localStorage.setItem('inn', arrUser['inn'])
+        localStorage.setItem('bank_info', arrUser['bank_info'])
+        localStorage.setItem('address', arrUser['address'])
+        localStorage.setItem('pass', arrUser['pass'])
+        localStorage.setItem('is_active', 'active')
+
         window.location.href = "../index";
         document.querySelector('.black_screan').style.display = "none";
         document.querySelector('.signin_window').style.display = "none";
@@ -41,35 +74,7 @@ document.querySelector('.sub_signin').onclick = () => {
     }
 }
 
-// const loginForm = document.getElementById('login-form');
-// loginForm.addEventListener('submit', (event) => {
-//     event.preventDefault(); // prevent form from submitting
-//     const email = document.getElementById('login-email-input').value;
-//     const password = document.getElementById('login-password-input').value;
-//     const user = users.find(user => user.email === email && user.password === password);
-//     if (user) {
-//         // user is authenticated
-//     } else {
-//         // invalid email or password
-//     }
-//     loginForm.reset(); // clear form fields
-// });
-//
-// const registrationForm = document.getElementById('registration-form');
-// const users = []; // array to store registered users
-// registrationForm.addEventListener('submit', (event) => {
-//     event.preventDefault(); // prevent form from submitting
-//     const username = document.getElementById('username-input').value;
-//     const email = document.getElementById('email-input').value;
-//     const password = document.getElementById('password-input').value;
-//     const user = {
-//         username: username,
-//         email: email,
-//         password: password
-//     };
-//     users.push(user); // add user to array
-//     registrationForm.reset(); // clear form fields
-// });
+
 
 document.querySelector('.sub_signup').onclick = () => {
     let name_user_reg = document.querySelector('#name_signup').value;
@@ -82,8 +87,8 @@ document.querySelector('.sub_signup').onclick = () => {
     let address_user_reg = document.querySelector('#address_signup').value;
     let pass_signup = document.querySelector('#pass_signup').value;
     let conf_pass_signup = document.querySelector('#conf_pass_signup').value;
-    if (pass_signup == conf_pass_signup) {
-        arrUser = {
+    if (pass_signup === conf_pass_signup) {
+         arrUser = {
             name: name_user_reg,
             surname: suname_user_reg,
             patra: patra_user_reg,

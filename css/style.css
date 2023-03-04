@@ -2,6 +2,9 @@
     width: 50%;
     height: 100vh;
 }
+html{
+    overflow-x: hidden;
+}
 
 .contain_docu {
     margin: 0 auto;
@@ -288,6 +291,14 @@ table td, table th {
     z-index: 100;
 }
 
+.exit_but{
+    display: block;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    cursor: pointer;
+}
+
 .button_confirm{
     display: flex;
     flex-direction: column;
@@ -296,6 +307,25 @@ table td, table th {
 .button_confirm input{
     margin-top: 20px;
     width: 300px;
+}
+
+.blind{
+    top: 0;
+    width: 100vw;
+    background: rgba(255, 255, 255, 0.70);
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+    display: block;
+}
+.blind_text{
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 101;
+    text-align: center;
+    padding-top: 49vh;
 }
 
 @page {
@@ -312,7 +342,7 @@ table td, table th {
         box-shadow: none;
         text-shadow: none;
     }
-    header, .right_part_input, .banner {
+    header, .right_part_input, .banner, .exit_but {
         display: none;
     }
     ul, ol, table {

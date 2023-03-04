@@ -1,6 +1,20 @@
 let change_input_ot_kogo = document.querySelector('#company');
 let change_but_ot_kogo = document.querySelector('#company_but');
 let change_allOtkogo = document.querySelectorAll(".otKogo");
+function fun_fill() {
+    if (localStorage.getItem('is_active') === 'active') {
+        let address = localStorage.getItem('address')
+        let elements = change_allOtkogo;
+        for (let i = 0; i < elements.length; i++) {
+            elements[i].innerHTML = address;
+            elements[i].style.backgroundColor = 'Green'
+            elements[i].style.color = 'white'
+        }
+    } else {
+        window.location.href = "../no_auto.php";
+    }
+}
+    fun_fill()
 
 
 change_but_ot_kogo.onclick = function () {
@@ -101,10 +115,9 @@ change6_but.onclick = function () {
     }
 }
 
-document.querySelector('#qwe').onclick = () =>{
-    html2canvas(document.querySelector("#docu")).then(canvas => {
-        document.body.appendChild(canvas)
-    });
+document.querySelector('.exit_but').onclick = () =>{
+    localStorage.clear()
+    window.location.href = "../login";
 }
 
 

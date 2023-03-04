@@ -9,8 +9,8 @@
             <input placeholder="Email" id="email_signin" name="email_signup" type="text">
             <input placeholder="Password" id="email_password" name="passwd_signup" type="password">
             <input class="sub_signin" type="submit" name="submit_signup" value="Войти">
-            <p class="non-right" style="display: none">Проверьте еще раз введеные данные</p>
         </label>
+        <p class="non-right" style="display: none">Проверьте еще раз введеные данные</p>
     </div>
     <div style="display: none" class="signup_window">
         <label for="">
@@ -24,9 +24,9 @@
             <input id="address_signup" placeholder="Adress" name="passwd_signin" type="text">
             <input id="pass_signup" placeholder="Password" name="passwd_signin" type="password">
             <input id="conf_pass_signup" placeholder="Confirm password" name="passwd_conf_signin" type="password">
-            <p style="color: white; display: none" class="conf_pass">Проверьте совпадение паролей</p>
             <input class="sub_signup" type="submit" name="submit_signup" value="Зарегистироваться">
         </label>
+        <p style="color: white; display: none" class="conf_pass">Проверьте совпадение паролей</p>
     </div>
     <div class="black_screan"></div>
 
