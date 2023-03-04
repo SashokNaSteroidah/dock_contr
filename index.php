@@ -1,18 +1,5 @@
-<!doctype html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/jq.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
-    <script src="js/html2canvas.min.js"></script>
-    <title>Change Documents</title>
-</head>
-<body>
 <?php require_once "header.php"; ?>
+<?php //require_once 'req.php'; ?>
 
 <div id="docu" class="main">
 
@@ -134,12 +121,11 @@
     <input type="text" name="" id="change6_input">
     <input type="button" id="change6_but" value="Заполнить">
     <span class="checker5">Не внесены данные</span>
-    <input type="button" value="sadas" id="qwe">
-    <div style="text-align: center; margin: 0 auto">
-        <a href="https://api.html2pdfrocket.com/pdf?value=http://file:///C:/Users/letsp/OneDrive/Desktop/docuContr/html/document_changer.html&apikey=299b2864-690b-4de3-8e67-852c0db6eb25">Download PDF</a>
-    </div>
 
-    <input type="button" onclick="print(); return false;" value="asdasads">
+    <div class="button_confirm">
+        <input type="button" value="Выгрузить в виде картинки (Тест)" id="qwe">
+        <input type="button" onclick="print(); return false;" value="Распечатать в виде PDF">
+    </div>
 </div>
 
 
