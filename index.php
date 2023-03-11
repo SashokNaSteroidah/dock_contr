@@ -4,7 +4,10 @@
 
 <div id="docu" class="main">
 
-    <div class="exit_but">Выйти</div>
+    <div class="control_panel">
+        <a href="cabinet.php" class="cab">Личный кабинет</a>
+        <div class="exit_but">Выйти</div>
+    </div>
 
 
     <div class="c5 doc-content"><p class="c7 c11"><span class="c17"></span></p><a

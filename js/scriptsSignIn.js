@@ -1,6 +1,6 @@
 function checkSign() {
     if (localStorage.getItem('is_active') === 'active'){
-        window.location.href = "../index";
+        window.location.href = "../cabinet";
     }
     else {
         console.log('sign')
@@ -46,7 +46,7 @@ document.querySelector('.sub_signin').onclick = () => {
         localStorage.setItem('address', 'admin')
         localStorage.setItem('pass', 'admin')
         localStorage.setItem('is_active', 'active')
-        window.location.href = "../index";
+        window.location.href = "../cabinet.php";
         document.querySelector('.black_screan').style.display = "none";
         document.querySelector('.signin_window').style.display = "none";
         document.querySelector('.signup_window').style.display = "none";
@@ -64,7 +64,7 @@ document.querySelector('.sub_signin').onclick = () => {
         localStorage.setItem('pass', arrUser['pass'])
         localStorage.setItem('is_active', 'active')
 
-        window.location.href = "../index";
+        window.location.href = "../cabinet.php";
         document.querySelector('.black_screan').style.display = "none";
         document.querySelector('.signin_window').style.display = "none";
         document.querySelector('.signup_window').style.display = "none";
