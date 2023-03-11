@@ -399,6 +399,18 @@ table td, table th {
     padding: 0px 0 20px;
 }
 
+.saved_notify{
+    transition: .2s;
+    opacity: 0;
+}
+.saved_docu img{
+    width: 200px;
+    cursor: pointer;
+}
+.saved_docu {
+    padding: 100px 0;
+}
+
 
 
 

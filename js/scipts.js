@@ -120,5 +120,13 @@ document.querySelector('.exit_but').onclick = () =>{
     window.location.href = "../login";
 }
 
+document.querySelector('#save').onclick = () => {
+    localStorage.setItem('docu', 'saved')
+    document.querySelector('.saved_notify').style.opacity = '1'
+    setTimeout(function(){
+        document.querySelector('.saved_notify').style.opacity = '0';
+    }, 3000);
+}
+
 
 

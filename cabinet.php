@@ -29,7 +29,11 @@
 
     <div class="document_cabinet">
         <h1>Созданные документы</h1>
-        <input type="button" value="Создать новый">
+        <div class="saved_docu">
+            <p class="non_create_notify">Вы не создали еще ни одного документа</p>
+            <img class="saved_img_docu" src="../img/saved_document.png" alt="">
+        </div>
+        <input class="creat_new_docu" type="button" value="Создать новый">
     </div>
 
 </div>

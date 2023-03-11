@@ -14,10 +14,28 @@ function add_info() {
         window.location.href = "../no_auto.php";
     }
 }
+function saved_check() {
+    if (localStorage.getItem('docu') === 'saved') {
+        document.querySelector('.saved_img_docu').style.display = 'block'
+        document.querySelector('.non_create_notify').style.display = 'none'
+    }
+    else{
+        document.querySelector('.saved_img_docu').style.display = 'none'
+        document.querySelector('.non_create_notify').style.display = 'block'
+    }
+}
 
+saved_check()
 add_info()
+
+document.querySelector('.saved_img_docu').onclick = () => {
+    window.location.href = "../index.php";
+}
 
 document.querySelector('.exit_but').onclick = () => {
     localStorage.clear()
     window.location.href = "../login";
+}
+document.querySelector('.creat_new_docu').onclick = () => {
+    window.location.href = "../index.php";
 }
