@@ -115,11 +115,6 @@ change6_but.onclick = function () {
     }
 }
 
-document.querySelector('.exit_but').onclick = () =>{
-    localStorage.clear()
-    window.location.href = "../login";
-}
-
 document.querySelector('#save').onclick = () => {
     localStorage.setItem('docu', 'saved')
     document.querySelector('.saved_notify').style.opacity = '1'

@@ -1,13 +1,9 @@
 <?php require_once "header.php"; ?>
-<?php //require_once 'req.php'; ?>
+<?php require_once 'head.php'; ?>
 
 
     <div id="docu" class="main">
 
-        <div class="control_panel">
-            <a href="cabinet.php" class="cab">Личный кабинет</a>
-            <div class="exit_but">Выйти</div>
-        </div>
 
 
         <div class="c5 doc-content"><p class="c7 c11"><span class="c17"></span></p><a
@@ -136,7 +132,7 @@
 
         <div class="button_confirm">
             <input type="button" value="Выгрузить в виде картинки (Тест)" id="qwe">
-            <input type="button" onclick="print(); return false;" value="Распечатать в виде PDF">
+            <input type="button" onclick="print(); return false;" value="Распечатать в виде PDF" id="print_but">
             <input type="button" value="Сохранить шаблон" id="save">
             <div class="saved_notify">
                 <p>saved</p>

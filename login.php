@@ -1,9 +1,18 @@
 <?php require_once "header.php"; ?>
-<header>
-    <div class="auth">
-        <div class="signin">Войти</div>
-        <div class="signup">Регистрация</div>
-    </div>
+<?php require_once "head.php"; ?>
+
+<div>
+    <sections class="auth">
+        <div class="warper_login">
+            <h1>
+                Вход
+            </h1>
+            <article>
+                <div class="signin">Войти</div>
+                <div class="signup">Регистрация</div>
+            </article>
+        </div>
+    </sections>
     <div style="display: none" class="signin_window">
         <label for="">
             <input placeholder="Email" id="email_signin" name="email_signup" type="text">
@@ -33,4 +42,4 @@
     <script src="js/users_info.js"></script>
     <script src="js/scriptsSignIn.js"></script>
 
-</header>
+</div>

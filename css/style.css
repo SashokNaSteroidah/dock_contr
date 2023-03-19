@@ -49,6 +49,7 @@ table {
 }
 html{
     overflow-x: hidden;
+    font-family: roboto, sans-serif;
 }
 
 .contain_docu {
@@ -289,7 +290,7 @@ table td, table th {
 
 
 .right_part_input p {
-    margin: 50px 0 0 0;
+    margin: 30px 0 0 0;
 }
 .right_part_input{
     position: fixed;
@@ -298,17 +299,55 @@ table td, table th {
 }
 
 .auth{
-    position: fixed;
-    top: 50%;
-    left: 45%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.signup_window{
-    position: absolute;
-    z-index: 101;
-    top: 40%;
-    left: 45%;
+.warper_login{
+    width: 20%;
+    padding: 50px 30px;
+    box-shadow: 1px 6px 24px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 25px;
 }
+
+.signin{
+    text-align: center;
+    background: #6d6dff;
+    color: white;
+    margin: 100px 10px 0 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px;
+}
+.signup{
+    text-align: center;
+    background: #6d6dff;
+    color: white;
+    margin: 30px 10px 0 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.warper_login h1{
+    text-align: center;
+}
+
+.sub_signin{
+    background: #6d6dff;
+}
+
+.signin_window input, .signup_window input{
+    border: 1px solid black;
+    background: inherit;
+    margin: 10px 0;
+    border-radius: 25px;
+    padding: 3px 5px;
+}
+
 .signup_window label{
     display: flex;
     flex-direction: column;
@@ -317,9 +356,23 @@ table td, table th {
 .signin_window{
     position: absolute;
     top: 40%;
-    left: 45%;
+    left: 43%;
     z-index: 101;
+    background: white;
+    padding: 50px 50px;
+    border-radius: 25px;
 }
+
+.signup_window{
+    position: absolute;
+    z-index: 101;
+    top: 25%;
+    left: 43%;
+    background: white;
+    padding: 50px 50px;
+    border-radius: 25px;
+}
+
 .signin_window label{
     display: flex;
     flex-direction: column;
@@ -382,21 +435,19 @@ table td, table th {
 .cabinet_info{
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    width: 70vw;
+    margin: 50px auto 0;
     align-items: center;
-    height: 100vh;
     font-size: 20px;
 }
-.cabinet_info div{
-    margin: 0 auto;
-}
 
-.cabinet_info h1{
+
+.cabinet_info h2{
     font-weight: bold;
     padding-bottom: 10px;
 }
 .cabinet_info p{
-    padding: 0px 0 20px;
+    padding: 0 0 20px;
 }
 
 .saved_notify{
@@ -412,9 +463,85 @@ table td, table th {
 }
 
 
+.header_cab{
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    font-size: 30px;
+    margin: 100px auto 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 50px;
+    background: #6d6dff;
+    color: white;
+    font-size: 15px;
+}
+
+header nav{
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
 
 
+header div{
+    display: flex;
+    align-items: center;
+}
 
+.but_creat_header{
+    margin-left: 20px;
+    border: white 1px solid;
+    border-radius: 25px;
+    padding: 3px 10px;
+
+}
+
+.creat_new_docu, .exit_but{
+    text-align: right;
+    color: #6d6dff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 25px;
+    border: 1px solid #6d6dff;
+}
+
+#company, #change1_input, #change2_input, #change3_input, #change4_input, #change5_input, #change6_input{
+    margin: 10px 0;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+#company_but, #change1_but, #change2_but, #change3_but, #change4_but, #change5_but, #change6_but{
+    border: none;
+    border-radius: 25px;
+    padding: 7px 13px;
+    cursor: pointer;
+    margin-left: 10px;
+    background: #6d6dff;
+    color: white;
+}
+
+#qwe, #print_but, #save{
+    border: none;
+    border-radius: 25px;
+    padding: 7px 13px;
+    cursor: pointer;
+    background: #6d6dff;
+    color: white;
+}
 
 
 @page {
