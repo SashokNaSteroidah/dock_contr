@@ -18,6 +18,7 @@ function saved_check() {
     if (localStorage.getItem('docu') === 'saved') {
         document.querySelector('.saved_img_docu').style.display = 'block'
         document.querySelector('.non_create_notify').style.display = 'none'
+        document.querySelector('.saved_time').innerHTML = localStorage.getItem('save_time')
     }
     else{
         document.querySelector('.saved_img_docu').style.display = 'none'

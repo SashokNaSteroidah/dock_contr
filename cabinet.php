@@ -37,6 +37,7 @@
         <div class="saved_docu">
             <p class="non_create_notify">Вы не создали еще ни одного документа</p>
             <img class="saved_img_docu" src="../img/saved_document.png" alt="">
+            <p class="saved_time"></p>
         </div>
         <a href="index.php" class="creat_new_docu" type="button" value="">Создать новый</a>
     </div>

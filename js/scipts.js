@@ -121,6 +121,10 @@ document.querySelector('#save').onclick = () => {
     setTimeout(function(){
         document.querySelector('.saved_notify').style.opacity = '0';
     }, 3000);
+    // var Date = new Date();
+    let date = new Date(Date.now() + 86400000);
+    // date = date.toUTCString();
+    localStorage.setItem('save_time', date)
 }
 
 
