@@ -243,6 +243,8 @@
     </section>
 </main>
 
+
+<script src="js/script_button.js"></script>
 <script src="js/script_main.js"></script>
 
 <?php require_once "footer.php"; ?>

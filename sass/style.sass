@@ -36,6 +36,9 @@ ol, ul
 blockquote, q  
   quotes: none 
 
+input
+  font-family: "Century Gothic", sans-serif
+  font-weight: bold
  
 table  
   border-collapse: collapse 
@@ -311,83 +314,76 @@ table td, table th
   padding: 50px 30px 
   box-shadow: 1px 6px 24px 0px rgba(34, 60, 80, 0.2) 
   border-radius: 25px 
- 
 
-.signin 
-  text-align: center 
-  background: #6d6dff 
-  color: white 
-  margin: 100px 10px 0 10px 
-  border-radius: 25px 
-  cursor: pointer 
-  padding: 10px 
- 
-.signup 
-  text-align: center 
-  background: #6d6dff 
-  color: white 
-  margin: 30px 10px 0 10px 
-  border-radius: 25px 
-  cursor: pointer 
-  padding: 10px 
- 
 
-.warper_login h1 
-  text-align: center 
- 
+.signin
+  margin: 350px auto
+  width: 20vw
 
-.sub_signin 
-  background: #6d6dff 
- 
+  h1
+    text-align: center
+    color: white
+    margin-bottom: 30px
 
-.signin_window input, .signup_window input 
-  border: 1px solid black 
-  background: inherit 
-  margin: 10px 0 
-  border-radius: 25px 
-  padding: 3px 5px 
- 
+  input
+    border: 2px solid white
+    outline: none
+    margin: 5px 0
+    padding: 10px 15px
+    color: white
+    background: $main_color
 
-.signup_window label 
-  display: flex 
-  flex-direction: column 
- 
+  label
+    display: flex
+    margin-top: 20px
+    flex-direction: column
 
-.signin_window 
-  position: absolute 
-  top: 40% 
-  left: 43% 
-  z-index: 101 
-  background: white 
-  padding: 50px 50px 
-  border-radius: 25px 
- 
+  article
+    margin-top: 10px
 
-.signup_window 
-  position: absolute 
-  z-index: 101 
-  top: 25% 
-  left: 43% 
-  background: white 
-  padding: 50px 50px 
-  border-radius: 25px 
- 
+  p
+    color: white
+    margin-top: 30px
+    font-size: 20px
 
-.signin_window label 
-  display: flex 
-  flex-direction: column 
- 
+  a
+    color: white
+    font-size: 16px
+    text-decoration: none
+    border-bottom: 2px solid white
+    padding-bottom: 3px
 
-.black_screan 
-  display: none 
-  position: absolute 
-  top: 0 
-  left: 0 
-  height: 100vh 
-  width: 100vw 
-  background: rgba(0, 0, 0, 0.5) 
-  z-index: 100 
- 
+#signin
+  text-align: center
+  margin: 0 auto
+  width: 7vw
+
+#signup
+  text-align: center
+  margin: 0 auto
+  width: 14vw
+
+.signup
+  margin: 100px auto 0
+  width: 20vw
+
+  h1
+    text-align: center
+    color: white
+
+  input
+    border: 2px solid white
+    outline: none
+    margin: 15px 0
+    padding: 10px 15px
+    color: white
+    background: $main_color
+
+  label
+    display: flex
+    margin-top: 20px
+    flex-direction: column
+
 
 .control_panel 
   display: block 
@@ -499,6 +495,8 @@ header
   a
     color: white
     text-decoration: none
+    display: flex
+    align-items: center
 
 .main_1
   color: white

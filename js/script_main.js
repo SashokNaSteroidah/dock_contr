@@ -20,28 +20,29 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
     if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
         document.querySelector("header").style.background = "white";
-        document.querySelector("header").style.color = "black";
-        document.querySelector("header").childNodes[1].childNodes[1].childNodes[5].childNodes[1].style.color = 'black'
-        document.querySelector("header").childNodes[1].childNodes[1].childNodes[5].childNodes[3].style.color = 'black'
-        document.querySelector("header").childNodes[1].childNodes[1].childNodes[5].childNodes[5].style.color = 'black'
-        document.querySelector("header").childNodes[1].childNodes[3].childNodes[1].style.color = 'black'
-        document.querySelector("header").childNodes[1].childNodes[1].childNodes[1].childNodes[1].style.fill = '#1c1c1c'
-        document.querySelector("header").childNodes[1].childNodes[1].childNodes[1].childNodes[3].style.fill = 'white'
-        document.querySelector("header").childNodes[1].childNodes[1].childNodes[1].childNodes[5].style.fill = 'white'
-        document.querySelector("header").childNodes[1].childNodes[1].childNodes[1].childNodes[7].style.fill = 'white'
+        document.querySelector("header").childNodes[1].childNodes[1].childNodes[1].childNodes[3].style.color = '#1c1c1c'
+        document.querySelector("header").childNodes[1].childNodes[1].childNodes[3].childNodes[1].style.color = "#1c1c1c"
+        document.querySelector("header").childNodes[1].childNodes[1].childNodes[3].childNodes[3].style.color = "#1c1c1c"
+        document.querySelector("header").childNodes[1].childNodes[1].childNodes[3].childNodes[5].style.color = "#1c1c1c"
+        document.querySelector("header").childNodes[1].childNodes[3].childNodes[1].style.color = '#1c1c1c'
+        document.querySelector("header").childNodes[1].childNodes[3].childNodes[1].style.color = '#1c1c1c'
+        document.querySelector("header").childNodes[1].childNodes[1].childNodes[1].childNodes[1].childNodes[1].style.fill = '#1c1c1c'
+        document.querySelector("header").childNodes[1].childNodes[1].childNodes[1].childNodes[1].childNodes[3].style.fill = 'white'
+        document.querySelector("header").childNodes[1].childNodes[1].childNodes[1].childNodes[1].childNodes[5].style.fill = 'white'
+        document.querySelector("header").childNodes[1].childNodes[1].childNodes[1].childNodes[1].childNodes[7].style.fill = 'white'
     } else {
-        document.querySelector("header").style.color = "white";
-        document.querySelector("header").style.color = "white";
-        document.querySelector("header").style.background = "#1C1C1C";
-        document.querySelector("header").childNodes[1].childNodes[1].childNodes[5].childNodes[1].style.color = 'white'
-        document.querySelector("header").childNodes[1].childNodes[1].childNodes[5].childNodes[3].style.color = 'white'
-        document.querySelector("header").childNodes[1].childNodes[1].childNodes[5].childNodes[5].style.color = 'white'
+        document.querySelector("header").style.background = "white";
+        document.querySelector("header").style.background = "#1c1c1c";
+        document.querySelector("header").childNodes[1].childNodes[1].childNodes[1].childNodes[3].style.color = 'white'
+        document.querySelector("header").childNodes[1].childNodes[1].childNodes[3].childNodes[1].style.color = "white"
+        document.querySelector("header").childNodes[1].childNodes[1].childNodes[3].childNodes[3].style.color = "white"
+        document.querySelector("header").childNodes[1].childNodes[1].childNodes[3].childNodes[5].style.color = "white"
         document.querySelector("header").childNodes[1].childNodes[3].childNodes[1].style.color = 'white'
-
-        document.querySelector("header").childNodes[1].childNodes[1].childNodes[1].childNodes[1].style.fill = 'white'
-        document.querySelector("header").childNodes[1].childNodes[1].childNodes[1].childNodes[3].style.fill = '#1c1c1c'
-        document.querySelector("header").childNodes[1].childNodes[1].childNodes[1].childNodes[5].style.fill = '#1c1c1c'
-        document.querySelector("header").childNodes[1].childNodes[1].childNodes[1].childNodes[7].style.fill = '#1c1c1c'
+        document.querySelector("header").childNodes[1].childNodes[3].childNodes[1].style.color = 'white'
+        document.querySelector("header").childNodes[1].childNodes[1].childNodes[1].childNodes[1].childNodes[1].style.fill = 'white'
+        document.querySelector("header").childNodes[1].childNodes[1].childNodes[1].childNodes[1].childNodes[3].style.fill = '#1c1c1c'
+        document.querySelector("header").childNodes[1].childNodes[1].childNodes[1].childNodes[1].childNodes[5].style.fill = '#1c1c1c'
+        document.querySelector("header").childNodes[1].childNodes[1].childNodes[1].childNodes[1].childNodes[7].style.fill = '#1c1c1c'
     }
 }
 
