@@ -1,146 +1,149 @@
-<?php require_once 'head.php'; ?>
-<?php require_once "header.php"; ?>
+<?php require_once "head.php"; ?>
 
-
-    <div id="docu" class="main">
-
-
-
-        <div class="c5 doc-content"><p class="c7 c11"><span class="c17"></span></p><a
-                    id="t.75a7ff09512e6a96e942d23540c29b7b53002ce2"></a><a id="t.0"></a>
-            <table class="c18">
-                <tbody>
-                <tr class="c16">
-                    <td class="c9" rowspan="1" colspan="1"><p class="c12"><span class="c2">Исх.: № ____</span></p>
-                        <p
-                                class="c15"><span class="c2">«____»____________2022г.</span></p></td>
-                    <td class="c13" rowspan="1" colspan="1"><p class="c6"><span
-                                    class="c2">Кому: Генеральному директору</span>
-                        </p>
-                        <p class="c6"><span class="c2">ООО «Альфа»</span></p>
-                        <p class="c6"><span class="c2">Юридический и почтовый адрес:</span>
-                        </p>
-                        <p class="c6"><span class="c2">____, Калужская область, __________ район,</span></p>
-                        <p class="c6"><span
-                                    class="c2">Г. ___________, стр. _____,пом.____</span></p>
-                        <p class="c6"><span class="c2">Тел: _____________</span>
-                        </p>
-                        <p class="c6 c7"><span class="c2"></span></p>
-                        <p class="c6"><span
-                                    class="c2">От кого: <span class="otKogo">ООО «Энергия»</span></span></p>
-                        <p class="c6"><span
-                                    class="c2">Юридический и почтовый адрес:</span></p>
-                        <p class="c6"><span class="c2">индекс___, город ___________ ул. .</span>
-                        </p>
-                        <p class="c6"><span class="c2">___________, стр. _____,пом.____</span></p>
-                        <p class="c6"><span
-                                    class="c2">Тел:_______________</span></p>
-                        <p class="c6"><span class="c2">Электронная почта:__________________</span>
-                        </p>
-                        <p class="c6 c7"><span class="c2"></span></p></td>
-                </tr>
-                </tbody>
-            </table>
-            <p class="c12 c7"><span class="c2"></span></p>
-            <p class="c10"><span class="c14">ПРЕТЕНЗИЯ</span></p>
-            <p
-                    class="c10 c7"><span class="c2"></span></p>
-            <p class="c0 c7"><span class="c1 c8"></span></p>
-            <p class="c0 change1"><span class="c1">Ваши изменения</span></p>
-            <p class="c0"><span
-                        class="c2">В соответствии с условиями договора мы свои обязательства выполнили в полном объеме.</span>
-            </p>
-            <p class="c0 change2"><span class="c1">Ваши изменения</span></p>
-            <p
-                    class="c0"><span
-                        class="c2">Претензий относительно качества и своевременности оказанных услуг не поступало.</span>
-            </p>
-            <p
-                    class="c0"><span class="c2">Согласно пункту 1 статьи 779 Гражданского кодекса Российской Федерации по договору возмездного оказания услуг исполнитель обязуется по заданию заказчика оказать услуги (совершить определенные действия или осуществить определенную деятельность), а заказчик обязуется оплатить эти услуги.</span>
-            </p>
-            <p class="c0"><span class="c2">Согласно пункту 1 статьи 781 Гражданского кодекса Российской Федерации заказчик обязан оплатить оказанные ему услуги в сроки и в порядке, которые указаны в договоре.</span>
-            </p>
-            <p class="c0"><span class="c2">Согласно ст. 309 Гражданского кодекса Российской Федерации обязательства должны исполняться надлежащим образом в соответствии с их условиями.</span>
-            </p>
-            <p class="c0"><span class="c2">Обязательства признаются исполненными надлежащим образом, если точно соблюдены все условия и требования, предъявляемые к предмету исполнения, субъектам, месту, сроку, способу исполнения.</span>
-            </p>
-            <p class="c0"><span class="c2">Также, в силу ст. 310 Гражданского кодекса Российской Федерации, односторонний отказ от исполнения обязательства не допускается.</span>
-            </p>
-            <p class="c0"><span class="c1"></span><span class="c1 change3">Ваши именения</span><span
-                        class="c1"></span><span
-                        class="c2">. По состоянию на сегодняшний день обязательства по оплате услуг не выполнено.</span>
-            </p>
-            <p class="c0 change4">
-                <span class="c1"></span><span class="c1 c3">Ваши именения</span><span class="c8 c1"></span></p>
-            <p class="c0">
-                <span class="c2">В силу ст. 307 Гражданского кодекса Российской Федерации кредитор в праве требовать от должника исполнения его обязанности.</span>
-            </p>
-            <p class="c0"><span class="c2">Таким образом, исходя из существа регулируемых названных статей обязательств отказ заказчика от оплаты оказанных ему исполнителем услуг при условии их надлежащего исполнения не допускается.</span>
-            </p>
-            <p class="c0"><span class="c2">Просим в кротчайшие сроки оплатить сумму задолженности, но не позднее 30 календарных дней с момента отправки в Ваш адрес претензии.</span>
-            </p>
-            <p class="c0">
-                <span>Кроме того, просим Вас подписать акт сверки взаимных расчетов по состоянию на </span><span
-                        class="c1"></span><span class="c1 change5 c3">Ваши именения</span><span class="c1"></span><span
-                        class="c2"> и вернуть один экземпляр в адрес <span class="otKogo">ООО «Энергия»</span> . В случае невозврата акта сверки в наш адрес, в течение 10 (десяти) календарных дней с момента получения Вами претензии с актами, последний в праве считать, что Вы согласны с вашей задолженностью.</span>
-            </p>
-            <p class="c0"><span class="c2">При возникновении разногласий, для выверки расчетов обращаться по телефонам (___) _-___-__, в бухгалтерию <span
-                            class="otKogo">ООО «Энергия»</span> .</span>
-            </p>
-            <p class="c0"><span>Если вышеуказанные требования Вами не будут выполнены, <span class="otKogo">ООО «Энергия»</span> оставляет за собой право, руководствуясь договором и нормами действующего Российского законодательства, перерасчитать образовавшуюся задолженность в сторону увеличения с учетом штрафных санкций и пеней, а так же расходов на представителя и передать материалы на рассмотрение в </span><span
-                        class="c1 change6">Ваши именения</span><span class="c2"> в порядке установленном действующим законодательством.</span>
-            </p>
-            <p class="c0"><span class="c2">Ответ просим предоставить в письменном виде в срок не позднее 30 календарных дней с момента отправки претензии в адрес Покупателя. Ответ можно отправить на наш электронный адрес _____@________, с последующим отправлением по почте.</span>
-            </p>
-            <p class="c0 c7"><span class="c2"></span></p>
-            <p class="c0"><span class="c2">Приложение:</span></p>
-            <p
-                    class="c0 c7"><span class="c2"></span></p>
-            <p class="c4"><span class="c2">Оригиналы актов сверки взаимных расчетов по состоянию на ______.2016г. – 2 экземпляра на 1 листе каждый.</span>
-            </p></div>
+<header>
+    <div>
+        <article>
+            <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="55" height="55" fill="white"/>
+                <path
+                    d="M12 15.1724H16.3164C19.0987 15.1724 21.1659 15.5162 22.518 16.2039C23.8701 16.8829 24.9839 17.9917 25.8593 19.5302C26.7347 21.0688 27.1724 22.8652 27.1724 24.9195C27.1724 26.3807 26.9254 27.7259 26.4313 28.955C25.946 30.1755 25.2699 31.1898 24.4032 31.9977C23.5451 32.8057 22.6133 33.3644 21.6079 33.6738C20.6025 33.9832 18.8603 34.1379 16.3814 34.1379H12V15.1724ZM15.6273 18.6535V30.6053H17.3175C18.9817 30.6053 20.1864 30.4162 20.9318 30.038C21.6859 29.6598 22.3013 29.0237 22.778 28.1298C23.2547 27.2359 23.4931 26.1357 23.4931 24.8292C23.4931 22.8179 22.9254 21.2579 21.7899 20.1491C20.7672 19.152 19.1247 18.6535 16.8625 18.6535H15.6273Z"
+                    fill="#1C1C1C"/>
+                <path d="M29.1724 16H43.6724V19.5649H38.3759V35H34.8827V19.5649L29.1724 19.5649V16Z" fill="#1C1C1C"/>
+                <path d="M12 37H30.9655V40.319H12V37Z" fill="#1C1C1C"/>
+            </svg>
+            <h1>
+                Debetorum
+            </h1>
+            <nav>
+                <a href="">О нас</a>
+                <a href="">Новости</a>
+                <a href="">Dev - блог</a>
+            </nav>
+        </article>
+        <article>
+            <a href="login.php">Профиль</a>
+        </article>
     </div>
+</header>
 
-    <div class="right_part_input">
-        <p>Название компании (от кого)</p>
-        <input type="text" name="" id="company">
-        <input type="button" id="company_but" value="Заполнить">
-        <span class="checker">Не внесены данные</span>
-        <p>Изменения 1</p>
-        <input type="text" name="" id="change1_input">
-        <input type="button" id="change1_but" value="Заполнить">
-        <span class="checker1">Не внесены данные</span>
-        <p>Изменения 2</p>
-        <input type="text" name="" id="change2_input">
-        <input type="button" id="change2_but" value="Заполнить">
-        <span class="checker2">Не внесены данные</span>
-        <p>Изменения 3</p>
-        <input type="text" name="" id="change3_input">
-        <input type="button" id="change3_but" value="Заполнить">
-        <span class="checker3">Не внесены данные</span>
-        <p>Изменения 4</p>
-        <input type="text" name="" id="change4_input">
-        <input type="button" id="change4_but" value="Заполнить">
-        <span class="checker4">Не внесены данные</span>
-        <p>Изменения 5</p>
-        <input type="text" name="" id="change5_input">
-        <input type="button" id="change5_but" value="Заполнить">
-        <span class="checker5">Не внесены данные</span>
-        <p>Изменения 6</p>
-        <input type="text" name="" id="change6_input">
-        <input type="button" id="change6_but" value="Заполнить">
-        <span class="checker5">Не внесены данные</span>
+<main>
 
-        <div class="button_confirm">
-            <input type="button" value="Выгрузить в виде картинки (Тест)" id="qwe">
-            <input type="button" onclick="print(); return false;" value="Распечатать в виде PDF" id="print_but">
-            <input type="button" value="Сохранить шаблон" id="save">
-            <div class="saved_notify">
-                <p>saved</p>
-            </div>
+    <section class="main_1">
+        <article>
+            <h1>Debetorum</h1>
+            <p>Инновационный конструктор для ваших документов
+                Где вы можете создавать и редактировать все возможные
+                бумаги, что вам нужны</p>
+            <a data-hover="false" onmouseleave="but_svg_dis(this)" onmouseover="but_svg_appear(this)" class="button"
+               href="">Попробовать
+                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="button_arrow"
+                          d="M12.9703 0.656879V11.9706L10.9728 11.9883L10.9728 4.06867L2.36373 12.6777L0.949516 11.2635L9.55854 2.65446L1.63894 2.65446L1.65662 0.656879H12.9703Z"
+                          fill="white"/>
+                </svg>
+            </a>
+            <a class="button_underline" href="">Прочитать подробнее о возможностях</a>
+        </article>
+        <article>
+            <img src="img/Group.png" alt="">
+        </article>
+    </section>
+
+    <section class="main_2">
+        <div>
+            <article>
+                <h2>Преимущества нашего сервиса</h2>
+                <ul>
+                    <li>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16 8L8 16L6.575 14.6L12.175 9L-3.0598e-07 9L-3.93402e-07 7L12.175 7L6.575 1.4L8 -3.49691e-07L16 8Z"
+                                fill="white"/>
+                        </svg>
+                        <p>
+                            Наш сервис быстрый и удобный в освоении
+                        </p>
+                    </li>
+                    <li>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16 8L8 16L6.575 14.6L12.175 9L-3.0598e-07 9L-3.93402e-07 7L12.175 7L6.575 1.4L8 -3.49691e-07L16 8Z"
+                                fill="white"/>
+                        </svg>
+                        <p>
+                            Наш сервис быстрый и удобный в освоении
+                        </p>
+                    </li>
+                    <li>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16 8L8 16L6.575 14.6L12.175 9L-3.0598e-07 9L-3.93402e-07 7L12.175 7L6.575 1.4L8 -3.49691e-07L16 8Z"
+                                fill="white"/>
+                        </svg>
+                        <p>
+                            Наш сервис быстрый и удобный в освоении
+                        </p>
+                    </li>
+                </ul>
+                <a data-hover="false" onmouseleave="but_svg_dis(this)" onmouseover="but_svg_appear(this)"
+                   class="button" href="">Попробовать
+                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path class="button_arrow"
+                              d="M12.9703 0.656879V11.9706L10.9728 11.9883L10.9728 4.06867L2.36373 12.6777L0.949516 11.2635L9.55854 2.65446L1.63894 2.65446L1.65662 0.656879H12.9703Z"
+                              fill="white"/>
+                    </svg>
+                </a>
+            </article>
+            <article>
+                <h2>Преимущества нашего сервиса</h2>
+                <ul>
+                    <li>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16 8L8 16L6.575 14.6L12.175 9L-3.0598e-07 9L-3.93402e-07 7L12.175 7L6.575 1.4L8 -3.49691e-07L16 8Z"
+                                fill="white"/>
+                        </svg>
+                        <p>
+                            Наш сервис быстрый и удобный в освоении
+                        </p>
+                    </li>
+                    <li>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16 8L8 16L6.575 14.6L12.175 9L-3.0598e-07 9L-3.93402e-07 7L12.175 7L6.575 1.4L8 -3.49691e-07L16 8Z"
+                                fill="white"/>
+                        </svg>
+                        <p>
+                            Наш сервис быстрый и удобный в освоении
+                        </p>
+                    </li>
+                    <li>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16 8L8 16L6.575 14.6L12.175 9L-3.0598e-07 9L-3.93402e-07 7L12.175 7L6.575 1.4L8 -3.49691e-07L16 8Z"
+                                fill="white"/>
+                        </svg>
+                        <p>
+                            Наш сервис быстрый и удобный в освоении
+                        </p>
+                    </li>
+                </ul>
+                <a data-hover="false" onmouseleave="but_svg_dis(this)" onmouseover="but_svg_appear(this)"
+                   class="button" href="">Попробовать
+                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path class="button_arrow"
+                              d="M12.9703 0.656879V11.9706L10.9728 11.9883L10.9728 4.06867L2.36373 12.6777L0.949516 11.2635L9.55854 2.65446L1.63894 2.65446L1.65662 0.656879H12.9703Z"
+                              fill="white"/>
+                    </svg>
+                </a>
+            </article>
         </div>
+        <div class="stic_el">
+            asd
+        </div>
+    </section>
 
-    </div>
-
-
-    <script src="js/scipts.js"></script>
-<?php require_once 'footer.php' ?>
+</main>
+<script src="js/script_main.js"></script>

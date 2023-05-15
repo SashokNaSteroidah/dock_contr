@@ -39,7 +39,7 @@
             <img class="saved_img_docu" src="../img/saved_document.png" alt="">
             <p class="saved_time"></p>
         </div>
-        <a href="index.php" class="creat_new_docu" type="button" value="">Создать новый</a>
+        <a href="document_change.php" class="creat_new_docu" type="button" value="">Создать новый</a>
     </div>
 
 </div>

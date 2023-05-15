@@ -30,7 +30,7 @@ saved_check()
 add_info()
 
 document.querySelector('.saved_img_docu').onclick = () => {
-    window.location.href = "../index.php";
+    window.location.href = "../document_change.php";
 }
 
 document.querySelector('.exit_but').onclick = () => {
@@ -38,5 +38,5 @@ document.querySelector('.exit_but').onclick = () => {
     window.location.href = "../login";
 }
 document.querySelector('.creat_new_docu').onclick = () => {
-    window.location.href = "../index.php";
+    window.location.href = "../document_change.php";
 }
