@@ -1,30 +1,5 @@
 <?php require_once "head.php"; ?>
-
-<header>
-    <div>
-        <article>
-            <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="55" height="55" fill="white"/>
-                <path
-                    d="M12 15.1724H16.3164C19.0987 15.1724 21.1659 15.5162 22.518 16.2039C23.8701 16.8829 24.9839 17.9917 25.8593 19.5302C26.7347 21.0688 27.1724 22.8652 27.1724 24.9195C27.1724 26.3807 26.9254 27.7259 26.4313 28.955C25.946 30.1755 25.2699 31.1898 24.4032 31.9977C23.5451 32.8057 22.6133 33.3644 21.6079 33.6738C20.6025 33.9832 18.8603 34.1379 16.3814 34.1379H12V15.1724ZM15.6273 18.6535V30.6053H17.3175C18.9817 30.6053 20.1864 30.4162 20.9318 30.038C21.6859 29.6598 22.3013 29.0237 22.778 28.1298C23.2547 27.2359 23.4931 26.1357 23.4931 24.8292C23.4931 22.8179 22.9254 21.2579 21.7899 20.1491C20.7672 19.152 19.1247 18.6535 16.8625 18.6535H15.6273Z"
-                    fill="#1C1C1C"/>
-                <path d="M29.1724 16H43.6724V19.5649H38.3759V35H34.8827V19.5649L29.1724 19.5649V16Z" fill="#1C1C1C"/>
-                <path d="M12 37H30.9655V40.319H12V37Z" fill="#1C1C1C"/>
-            </svg>
-            <h1>
-                Debetorum
-            </h1>
-            <nav>
-                <a href="">О нас</a>
-                <a href="">Новости</a>
-                <a href="">Dev - блог</a>
-            </nav>
-        </article>
-        <article>
-            <a href="login.php">Профиль</a>
-        </article>
-    </div>
-</header>
+<?php require_once "header.php"; ?>
 
 <main>
 
@@ -71,7 +46,7 @@
                                 fill="white"/>
                         </svg>
                         <p>
-                            Наш сервис быстрый и удобный в освоении
+                            С каждым днем мы развиваемся все больше и больше
                         </p>
                     </li>
                     <li>
@@ -81,7 +56,7 @@
                                 fill="white"/>
                         </svg>
                         <p>
-                            Наш сервис быстрый и удобный в освоении
+                            Идеален для крупных корпораций
                         </p>
                     </li>
                 </ul>
@@ -96,7 +71,7 @@
                 </a>
             </article>
             <article>
-                <h2>Преимущества нашего сервиса</h2>
+                <h2>Что вас ждет после начала работы с нами?</h2>
                 <ul>
                     <li>
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -105,7 +80,7 @@
                                 fill="white"/>
                         </svg>
                         <p>
-                            Наш сервис быстрый и удобный в освоении
+                            Вы получить доступ к огромной библиотеке документов
                         </p>
                     </li>
                     <li>
@@ -115,7 +90,7 @@
                                 fill="white"/>
                         </svg>
                         <p>
-                            Наш сервис быстрый и удобный в освоении
+                            Сможете быстро и удобно выбрать нужного вам контрагента
                         </p>
                     </li>
                     <li>
@@ -125,7 +100,71 @@
                                 fill="white"/>
                         </svg>
                         <p>
-                            Наш сервис быстрый и удобный в освоении
+                            Можете редактировать документ когда вам угодно и где угодно
+                        </p>
+                    </li>
+                </ul>
+                <a data-hover="false" onmouseleave="but_svg_dis(this)" onmouseover="but_svg_appear(this)"
+                   class="button" href="">Попробовать
+                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path class="button_arrow"
+                              d="M12.9703 0.656879V11.9706L10.9728 11.9883L10.9728 4.06867L2.36373 12.6777L0.949516 11.2635L9.55854 2.65446L1.63894 2.65446L1.65662 0.656879H12.9703Z"
+                              fill="white"/>
+                    </svg>
+                </a>
+            </article>
+            <article>
+                <h2>Как происходит процесс работы?</h2>
+                <ul>
+                    <li>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16 8L8 16L6.575 14.6L12.175 9L-3.0598e-07 9L-3.93402e-07 7L12.175 7L6.575 1.4L8 -3.49691e-07L16 8Z"
+                                fill="white"/>
+                        </svg>
+                        <p>
+                            Вы регистрируетесь и заходите в ваш аккаунт
+                        </p>
+                    </li>
+                    <li>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16 8L8 16L6.575 14.6L12.175 9L-3.0598e-07 9L-3.93402e-07 7L12.175 7L6.575 1.4L8 -3.49691e-07L16 8Z"
+                                fill="white"/>
+                        </svg>
+                        <p>
+                            Выбираете нужный вам документ из нашей библиотеке или загружаете свой
+                        </p>
+                    </li>
+                    <li>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16 8L8 16L6.575 14.6L12.175 9L-3.0598e-07 9L-3.93402e-07 7L12.175 7L6.575 1.4L8 -3.49691e-07L16 8Z"
+                                fill="white"/>
+                        </svg>
+                        <p>
+                            Выбираете нужного контрагента из списка или добавляете своего
+                        </p>
+                    </li>
+                    <li>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16 8L8 16L6.575 14.6L12.175 9L-3.0598e-07 9L-3.93402e-07 7L12.175 7L6.575 1.4L8 -3.49691e-07L16 8Z"
+                                fill="white"/>
+                        </svg>
+                        <p>
+                            Редактируете документ
+                        </p>
+                    </li>
+                    <li>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16 8L8 16L6.575 14.6L12.175 9L-3.0598e-07 9L-3.93402e-07 7L12.175 7L6.575 1.4L8 -3.49691e-07L16 8Z"
+                                fill="white"/>
+                        </svg>
+                        <p>
+                            Сохраняете его или можете сразу распечатать
                         </p>
                     </li>
                 </ul>
@@ -141,9 +180,69 @@
             </article>
         </div>
         <div class="stic_el">
-            asd
+            <span class="stic_el_span">
+                Ваше изменения
+            </span>
+            <p class="blinking-cursor">|</p>
         </div>
     </section>
 
+    <section class="main_news">
+        <div>
+            <h2>Последние новости</h2>
+            <a class="button_underline" href="">Прочитать все новые новости</a>
+        </div>
+        <div>
+            <article>
+                <img src="img/Rectangle%2015.png" alt="">
+                <h3>Был добавлен API</h3>
+                <p>19.02.2023</p>
+            </article>
+            <article>
+                <img src="img/Rectangle%2015.png" alt="">
+                <h3>Был добавлен API</h3>
+                <p>19.02.2023</p>
+            </article>
+            <article>
+                <img src="img/Rectangle%2015.png" alt="">
+                <h3>Был добавлен API</h3>
+                <p>19.02.2023</p>
+            </article>
+            <article>
+                <img src="img/Rectangle%2015.png" alt="">
+                <h3>Был добавлен API</h3>
+                <p>19.02.2023</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="main_feed">
+        <div>
+            <h2>Остались вопросы?</h2>
+            <h3>Вы можете задать их нам</h3>
+            <label for="">
+                <input placeholder="Имя" type="text">
+                <input placeholder="Email" type="text">
+                <textarea placeholder="Сообщение" name="" id="" cols="30" rows="10"></textarea>
+                <article>
+                    <a data-hover="false" onmouseleave="but_svg_dis(this)" onmouseover="but_svg_appear(this)"
+                       class="button" href="">Попробовать
+                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path class="button_arrow"
+                                  d="M12.9703 0.656879V11.9706L10.9728 11.9883L10.9728 4.06867L2.36373 12.6777L0.949516 11.2635L9.55854 2.65446L1.63894 2.65446L1.65662 0.656879H12.9703Z"
+                                  fill="white"/>
+                        </svg>
+                    </a>
+                </article>
+            </label>
+        </div>
+        <div>
+            <img src="img/efe-kurnaz-RnCPiXixooY-unsplash%201.png" alt="">
+        </div>
+    </section>
 </main>
+
 <script src="js/script_main.js"></script>
+
+<?php require_once "footer.php"; ?>

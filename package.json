@@ -1,0 +1,28 @@
+{
+  "name": "docu_contr",
+  "version": "1.0.0",
+  "description": "Site, which wanna help you",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SashokNaSteroidah/dock_contr.git"
+  },
+  "author": "Nathen (Nikita Pavlushin)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SashokNaSteroidah/dock_contr/issues"
+  },
+  "homepage": "https://github.com/SashokNaSteroidah/dock_contr#readme",
+  "devDependencies": {
+    "browser-sync": "^2.29.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-csso": "^4.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^3.0.0"
+  }
+}

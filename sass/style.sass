@@ -1,5 +1,6 @@
 $main_color: #1C1C1C
-
+$second_color:  #F3E700
+$footer_color: #D9D9D9
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -20,14 +21,14 @@ time, mark, audio, video
   vertical-align: baseline
   font-family: "Century Gothic", sans-serif
   font-weight: bold
-  background-color: $main_color
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section  
   display: block 
  
 body  
-  line-height: 1 
+  line-height: 1
+  background-color: $main_color
  
 ol, ul  
   list-style: none 
@@ -468,6 +469,10 @@ header
   background: $main_color
   color: white
   padding: 20px 0
+  position: fixed
+  transition: .2s
+  z-index: 100
+  top: 0
 
   div
     margin: 0 auto
@@ -501,14 +506,14 @@ header
   align-items: center
   justify-content: space-around
   width: 90%
-  margin: 10px auto
+  margin: 50px auto
 
   img
     transform: translateY(100px)
-    width: 30vw
+    width: 50vw
 
   p
-    margin: 50px 0
+    margin: 70px 0
     font-size: 24px
     color: white
 
@@ -547,10 +552,12 @@ header
   display: flex
   justify-content: space-between
   width: 90vw
-  margin: 200px auto
-  height: 100svh
-  align-items: center
+  margin: 500px auto 0
   color: white
+
+  article
+    height: 100vh
+    vertical-align: middle
 
   h2
     font-size: 38px
@@ -570,10 +577,153 @@ header
 .stic_el
   font-size: 24px
   width: 30%
-  background: #F3E700
+  background:  $second_color
   padding: 10px 15px
   position: sticky
   top: 45%
+  height: 23px
+  vertical-align: middle
+  display: flex
+  transition: .2s
+  margin-bottom: 500px
+
+  p
+    color: black
+    font-size: 24px
+    animation: blink 1s infinite
+    background: inherit
+    width: 10px
+
+
+  span
+    background: inherit
+    color: black
+    font-weight: bold
+
+.main_news
+  width: 90vw
+  margin: 0 auto
+  display: flex
+  flex-direction: column
+  color: white
+
+  img
+    width: 20vw
+
+  h2
+    font-size: 80px
+
+  div
+    justify-content: space-between
+    align-items: center
+    display: flex
+
+  article
+    margin: 100px 0
+
+  h3
+    margin: 10px 0
+
+  p
+    color: white
+
+.main_feed
+  display: flex
+  margin: 100px auto
+  width: 90vw
+  justify-content: space-between
+  color: white
+  align-items: center
+
+  h2
+    margin-bottom: 30px
+    font-size: 38px
+
+  h3
+    margin-bottom: 30px
+
+  label
+    display: flex
+    flex-direction: column
+
+    input
+      border: 2px solid white
+      outline: none
+      width: 20vw
+      margin: 15px 0
+      padding: 10px 15px
+      color: white
+      background: $main_color
+
+  textarea
+    border: 2px solid white
+    margin: 15px 0 50px
+    color: white
+    padding: 10px 15px
+    outline: none
+    max-width: 20vw
+    max-height: 30vh
+    background: $main_color
+
+footer
+  background: $footer_color
+  padding: 100px 0
+
+  a
+    color: black
+    text-decoration: none
+    transition: .2s
+
+  li
+    margin: 0 0 15px 0
+
+  div
+    display: flex
+    align-items: center
+
+.up_footer
+  justify-content: space-between
+  width: 90vw
+  margin: 0 auto
+  display: flex
+  align-items: flex-start
+
+  h2
+    margin-bottom: 20px
+
+  h1
+    font-size: 24px
+    margin-left: 10px
+
+  section
+    display: flex
+
+    article
+      margin-left: 100px
+
+.bot_footer
+  width: 90vw
+  display: flex
+  align-items: center
+  color: grey
+  margin: 100px 0 0 5vw
+
+  h1
+    margin-right: 10px
+    font-size: 12px
+
+  h2
+    font-size: 12px
+    margin-right: 10px
+
+  a
+    margin-right: 15px
+    font-size: 12px
+    color: grey
+    text-decoration: none
+    border-bottom: 1px solid grey
+    padding-bottom: 2px
+
 
 .but_creat_header 
   margin-left: 20px 
@@ -682,7 +832,15 @@ header
   margin: 1cm 3cm 1cm 1.5cm
  
 
- 
+@keyframes blink
+  0%
+    opacity: 0
+
+  50%
+    opacity: 1
+
+  100%
+    opacity: 0
 
 
 

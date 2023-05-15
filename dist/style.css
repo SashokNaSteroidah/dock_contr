@@ -1,0 +1,620 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+.document {
+    width: 50%;
+    height: 100vh;
+}
+html{
+    overflow-x: hidden;
+    font-family: roboto, sans-serif;
+}
+
+.contain_docu {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.change1 {
+    background: rgba(255, 242, 0, 0.4);
+}
+.change2 {
+    background: rgba(255, 242, 0, 0.4);
+}
+.change3 {
+    background: rgba(255, 242, 0, 0.4);
+}
+.change4 {
+    background: rgba(255, 242, 0, 0.4);
+}
+.change5 {
+    background: rgba(255, 242, 0, 0.4);
+}
+.change6 {
+    background: rgba(255, 242, 0, 0.4);
+}
+
+.c5 {
+    background-color: #ffffff;
+    max-width: 467.7pt;
+    padding: 56.7pt 42.5pt 56.7pt 85pt;
+}
+
+p {
+    margin: 0;
+    color: #000000;
+    font-size: 11pt;
+    font-family: "Calibri";
+}
+
+.c11 {
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1.15;
+    text-align: left;
+}
+
+.c12 {
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1.0791;
+    orphans: 2;
+    widows: 2;
+    text-align: left;
+}
+
+.c10 {
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1.0791;
+    orphans: 2;
+    widows: 2;
+    text-align: center;
+}
+
+.c0 {
+    padding-top: 0pt;
+    text-indent: 35.4pt;
+    padding-bottom: 0pt;
+    line-height: 1.0791;
+    orphans: 2;
+    widows: 2;
+    text-align: justify;
+}
+
+.c6 {
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1;
+    orphans: 2;
+    widows: 2;
+    text-align: left;
+}
+
+.c7 {
+    height: 11pt;
+}
+
+.c18 {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    margin-right: auto;
+}
+
+.c4 {
+    padding-top: 0pt;
+    text-indent: 35.4pt;
+    padding-bottom: 8pt;
+    line-height: 1.0791;
+    orphans: 2;
+    widows: 2;
+    text-align: justify;
+}
+
+.c2 {
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 11pt;
+    font-family: "Calibri";
+    font-style: normal;
+}
+
+.c8 {
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 11pt;
+    font-family: "Calibri";
+    font-style: normal;
+}
+
+.c1 {
+    color: #c55911;
+}
+
+.c3 {
+    font-style: italic;
+}
+
+.c14 {
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 11pt;
+    font-family: "Calibri";
+    font-style: normal;
+}
+
+.c16 {
+    height: 0pt;
+}
+
+table td, table th {
+    padding: 0;
+}
+
+.c9 {
+    border-right-style: solid;
+    padding: 0pt 5.4pt 0pt 5.4pt;
+    border-bottom-color: #000000;
+    border-top-width: 0pt;
+    border-right-width: 0pt;
+    border-left-color: #000000;
+    vertical-align: top;
+    border-right-color: #000000;
+    border-left-width: 0pt;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-width: 0pt;
+    width: 233.6pt;
+    border-top-color: #000000;
+    border-bottom-style: solid;
+}
+
+.c13 {
+    border-right-style: solid;
+    padding: 0pt 5.4pt 0pt 5.4pt;
+    border-bottom-color: #000000;
+    border-top-width: 0pt;
+    border-right-width: 0pt;
+    border-left-color: #000000;
+    vertical-align: top;
+    border-right-color: #000000;
+    border-left-width: 0pt;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-width: 0pt;
+    width: 233.7pt;
+    border-top-color: #000000;
+    border-bottom-style: solid;
+}
+
+.c15 {
+    padding-top: 0pt;
+    padding-bottom: 8pt;
+    line-height: 1.0791;
+    orphans: 2;
+    widows: 2;
+    text-align: left;
+}
+
+.c17 {
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 11pt;
+    font-family: "Arial";
+    font-style: normal;
+}
+
+
+.checker{
+    opacity: 0;
+    transition: .2s;
+}
+.checker1{
+    opacity: 0;
+    transition: .2s;
+}
+.checker2{
+    opacity: 0;
+    transition: .2s;
+}
+.checker3{
+    opacity: 0;
+    transition: .2s;
+}
+.checker4{
+    opacity: 0;
+    transition: .2s;
+}
+.checker5{
+    opacity: 0;
+    transition: .2s;
+}
+.checker6{
+    opacity: 0;
+    transition: .2s;
+}
+
+
+.right_part_input p {
+    margin: 30px 0 0 0;
+}
+.right_part_input{
+    position: fixed;
+    right: 0;
+    top: 10%;
+}
+
+.auth{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.warper_login{
+    width: 20%;
+    padding: 50px 30px;
+    box-shadow: 1px 6px 24px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 25px;
+}
+
+.signin{
+    text-align: center;
+    background: #6d6dff;
+    color: white;
+    margin: 100px 10px 0 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px;
+}
+.signup{
+    text-align: center;
+    background: #6d6dff;
+    color: white;
+    margin: 30px 10px 0 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.warper_login h1{
+    text-align: center;
+}
+
+.sub_signin{
+    background: #6d6dff;
+}
+
+.signin_window input, .signup_window input{
+    border: 1px solid black;
+    background: inherit;
+    margin: 10px 0;
+    border-radius: 25px;
+    padding: 3px 5px;
+}
+
+.signup_window label{
+    display: flex;
+    flex-direction: column;
+}
+
+.signin_window{
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    z-index: 101;
+    background: white;
+    padding: 50px 50px;
+    border-radius: 25px;
+}
+
+.signup_window{
+    position: absolute;
+    z-index: 101;
+    top: 25%;
+    left: 43%;
+    background: white;
+    padding: 50px 50px;
+    border-radius: 25px;
+}
+
+.signin_window label{
+    display: flex;
+    flex-direction: column;
+}
+
+.black_screan{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.control_panel{
+    display: block;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    cursor: pointer;
+}
+.control_panel a{
+    text-decoration: none;
+    color: black;
+}
+
+.button_confirm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.button_confirm input{
+    margin-top: 20px;
+    width: 300px;
+}
+
+.blind{
+    top: 0;
+    width: 100vw;
+    background: rgba(255, 255, 255, 0.70);
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+    display: block;
+}
+.blind_text{
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 101;
+    text-align: center;
+    padding-top: 49vh;
+}
+
+
+
+.cabinet_info{
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    margin: 50px auto 0;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+.cabinet_info h2{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.cabinet_info p{
+    padding: 0 0 20px;
+}
+
+.saved_notify{
+    transition: .2s;
+    opacity: 0;
+}
+.saved_docu img{
+    width: 200px;
+    cursor: pointer;
+}
+.saved_docu {
+    padding: 100px 0;
+}
+
+
+.header_cab{
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    font-size: 30px;
+    margin: 100px auto 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 50px;
+    background: #6d6dff;
+    color: white;
+    font-size: 15px;
+}
+
+header nav{
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+
+header div{
+    display: flex;
+    align-items: center;
+}
+
+.but_creat_header{
+    margin-left: 20px;
+    border: white 1px solid;
+    border-radius: 25px;
+    padding: 3px 10px;
+
+}
+
+.creat_new_docu, .exit_but{
+    text-align: right;
+    color: #6d6dff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 25px;
+    border: 1px solid #6d6dff;
+}
+
+#company, #change1_input, #change2_input, #change3_input, #change4_input, #change5_input, #change6_input{
+    margin: 10px 0;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+#company_but, #change1_but, #change2_but, #change3_but, #change4_but, #change5_but, #change6_but{
+    border: none;
+    border-radius: 25px;
+    padding: 7px 13px;
+    cursor: pointer;
+    margin-left: 10px;
+    background: #6d6dff;
+    color: white;
+}
+
+#qwe, #print_but, #save{
+    border: none;
+    border-radius: 25px;
+    padding: 7px 13px;
+    cursor: pointer;
+    background: #6d6dff;
+    color: white;
+}
+
+.saved_time{
+    width: 10vw;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.templates_author{
+    width: 10vw;
+    text-align: center;
+    margin: 10px auto 0;
+}
+
+.creat_new_docu_page{
+    display: flex;
+    width: 70vw;
+    margin: 200px auto 0;
+    justify-content: space-between;
+}
+
+.creat_new_docu_page h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.creat_new_docu_page article h1:not(:first-child){
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.creat_new_docu_page h2{
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+}
+
+
+@page {
+    margin: 20mm 10mm 20mm 20mm;
+}
+@media print {
+    html, body{
+        height: 297mm;
+        width: 210mm;
+    }
+
+    *, *:before, *:after {
+        color: #000;
+        box-shadow: none;
+        text-shadow: none;
+    }
+    header, .right_part_input, .banner, .exit_but {
+        display: none;
+    }
+    ul, ol, table {
+        page-break-inside: avoid;
+    }
+    a[href^="http"]:after {
+        content: " (" attr(href) ")";
+    }
+    a:after {
+        content: " [" attr(href) "]";
+    }
+    @page :left{
+        margin: 1cm 3cm 1cm 1.5cm
+    }
+
+}
+
+
+
+
+
+
+
+
