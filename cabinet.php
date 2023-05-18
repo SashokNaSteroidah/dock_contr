@@ -27,9 +27,9 @@
         <p class="inn"></p>
         <h2>Адрес</h2>
         <p class="address"></p>
-<!--        <h2>Пароль</h2>-->
-<!--        <p class="pass"></p>-->
-<!--        <input type="button" value="Изменить пароль">-->
+        <!--        <h2>Пароль</h2>-->
+        <!--        <p class="pass"></p>-->
+        <!--        <input type="button" value="Изменить пароль">-->
         <a class="exit_but" href="">Выйти из аккаунта</a>
     </div>
 

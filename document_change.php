@@ -4,7 +4,185 @@
 
     <div id="docu" class="main">
 
+        <style>
+            .c5 {
+                background-color: #ffffff;
+                max-width: 467.7pt;
+                padding: 56.7pt 42.5pt 56.7pt 85pt;
+            }
 
+            p {
+                margin: 0;
+                color: #000000;
+                font-size: 11pt;
+                font-family: "Calibri";
+            }
+
+            .c11 {
+                padding-top: 0;
+                padding-bottom: 0;
+                line-height: 1.15;
+                text-align: left;
+            }
+
+            .c12 {
+                padding-top: 0;
+                padding-bottom: 0;
+                line-height: 1.0791;
+                orphans: 2;
+                widows: 2;
+                text-align: left;
+            }
+
+            .c10 {
+                padding-top: 0;
+                padding-bottom: 0;
+                line-height: 1.0791;
+                orphans: 2;
+                widows: 2;
+                text-align: center;
+            }
+
+            .c0 {
+                padding-top: 0;
+                text-indent: 35.4pt;
+                padding-bottom: 0;
+                line-height: 1.0791;
+                orphans: 2;
+                widows: 2;
+                text-align: justify;
+            }
+
+            .c6 {
+                padding-top: 0;
+                padding-bottom: 0;
+                line-height: 1;
+                orphans: 2;
+                widows: 2;
+                text-align: left;
+            }
+
+            .c7 {
+                height: 11pt;
+            }
+
+            .c18 {
+                border-spacing: 0;
+                border-collapse: collapse;
+                margin-right: auto;
+            }
+
+            .c4 {
+                padding-top: 0;
+                text-indent: 35.4pt;
+                padding-bottom: 8pt;
+                line-height: 1.0791;
+                orphans: 2;
+                widows: 2;
+                text-align: justify;
+            }
+
+            .c2 {
+                color: #000000;
+                font-weight: 400;
+                text-decoration: none;
+                vertical-align: baseline;
+                font-size: 11pt;
+                font-family: "Calibri";
+                font-style: normal;
+            }
+
+            .c8 {
+                font-weight: 400;
+                text-decoration: none;
+                vertical-align: baseline;
+                font-size: 11pt;
+                font-family: "Calibri";
+                font-style: normal;
+            }
+
+            .c1 {
+                color: #c55911;
+            }
+
+            .c3 {
+                font-style: italic;
+            }
+
+            .c14 {
+                color: #000000;
+                font-weight: 700;
+                text-decoration: none;
+                vertical-align: baseline;
+                font-size: 11pt;
+                font-family: "Calibri";
+                font-style: normal;
+            }
+
+            .c16 {
+                height: 0pt;
+            }
+
+            table td, table th {
+                padding: 0;
+            }
+
+            .c9 {
+                border-right-style: solid;
+                padding: 0 5.4pt 0 5.4pt;
+                border-bottom-color: #000000;
+                border-top-width: 0;
+                border-right-width: 0;
+                border-left-color: #000000;
+                vertical-align: top;
+                border-right-color: #000000;
+                border-left-width: 0;
+                border-top-style: solid;
+                border-left-style: solid;
+                border-bottom-width: 0;
+                width: 233.6pt;
+                border-top-color: #000000;
+                border-bottom-style: solid;
+            }
+
+            .c13 {
+                border-right-style: solid;
+                padding: 0 5.4pt 0 5.4pt;
+                border-bottom-color: #000000;
+                border-top-width: 0;
+                border-right-width: 0;
+                border-left-color: #000000;
+                vertical-align: top;
+                border-right-color: #000000;
+                border-left-width: 0;
+                border-top-style: solid;
+                border-left-style: solid;
+                border-bottom-width: 0;
+                width: 233.7pt;
+                border-top-color: #000000;
+                border-bottom-style: solid;
+            }
+
+            .c15 {
+                padding-top: 0;
+                padding-bottom: 8pt;
+                line-height: 1.0791;
+                orphans: 2;
+                widows: 2;
+                text-align: left;
+            }
+
+            .c17 {
+                color: #000000;
+                font-weight: 400;
+                text-decoration: none;
+                vertical-align: baseline;
+                font-size: 11pt;
+                font-family: "Arial";
+                font-style: normal;
+            }
+
+        </style>
 
         <div class="c5 doc-content"><p class="c7 c11"><span class="c17"></span></p><a
                     id="t.75a7ff09512e6a96e942d23540c29b7b53002ce2"></a><a id="t.0"></a>

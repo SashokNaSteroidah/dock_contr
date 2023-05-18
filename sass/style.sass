@@ -1,56 +1,7 @@
 @import 'variables'
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video
-  margin: 0
-  padding: 0
-  border: 0
-  vertical-align: baseline
-  font-family: "Century Gothic", sans-serif
-  font-weight: bold
-
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section
-  display: block
-
-body
-  line-height: 1
-  background-color: $main_color
-
-ol, ul
-  list-style: none
-
-blockquote, q
-  quotes: none
-
-input
-  font-family: "Century Gothic", sans-serif
-  font-weight: bold
-
-table
-  border-collapse: collapse
-  border-spacing: 0
-
-
-.document
-  width: 50%
-  height: 100vh
-
-html
-  overflow-x: hidden
-  font-family: roboto, sans-serif
-
+@import 'mixins'
+@import "reset"
+@import "docu_change"
 
 .contain_docu
   margin: 0 auto
@@ -60,240 +11,6 @@ html
 .main
   display: flex
   justify-content: space-around
-
-
-.change1
-  background: rgba(255, 242, 0, 0.4)
-
-.change2
-  background: rgba(255, 242, 0, 0.4)
-
-.change3
-  background: rgba(255, 242, 0, 0.4)
-
-.change4
-  background: rgba(255, 242, 0, 0.4)
-
-.change5
-  background: rgba(255, 242, 0, 0.4)
-
-.change6
-  background: rgba(255, 242, 0, 0.4)
-
-
-.c5
-  background-color: #ffffff
-  max-width: 467.7pt
-  padding: 56.7pt 42.5pt 56.7pt 85pt
-
-
-p
-  margin: 0
-  color: #000000
-  font-size: 11pt
-  font-family: "Calibri"
-
-
-.c11
-  padding-top: 0pt
-  padding-bottom: 0pt
-  line-height: 1.15
-  text-align: left
-
-
-.c12
-  padding-top: 0pt
-  padding-bottom: 0pt
-  line-height: 1.0791
-  orphans: 2
-  widows: 2
-  text-align: left
-
-
-.c10
-  padding-top: 0pt
-  padding-bottom: 0pt
-  line-height: 1.0791
-  orphans: 2
-  widows: 2
-  text-align: center
-
-
-.c0
-  padding-top: 0pt
-  text-indent: 35.4pt
-  padding-bottom: 0pt
-  line-height: 1.0791
-  orphans: 2
-  widows: 2
-  text-align: justify
-
-
-.c6
-  padding-top: 0pt
-  padding-bottom: 0pt
-  line-height: 1
-  orphans: 2
-  widows: 2
-  text-align: left
-
-
-.c7
-  height: 11pt
-
-
-.c18
-  border-spacing: 0px
-  border-collapse: collapse
-  margin-right: auto
-
-
-.c4
-  padding-top: 0pt
-  text-indent: 35.4pt
-  padding-bottom: 8pt
-  line-height: 1.0791
-  orphans: 2
-  widows: 2
-  text-align: justify
-
-
-.c2
-  color: #000000
-  font-weight: 400
-  text-decoration: none
-  vertical-align: baseline
-  font-size: 11pt
-  font-family: "Calibri"
-  font-style: normal
-
-
-.c8
-  font-weight: 400
-  text-decoration: none
-  vertical-align: baseline
-  font-size: 11pt
-  font-family: "Calibri"
-  font-style: normal
-
-
-.c1
-  color: #c55911
-
-
-.c3
-  font-style: italic
-
-
-.c14
-  color: #000000
-  font-weight: 700
-  text-decoration: none
-  vertical-align: baseline
-  font-size: 11pt
-  font-family: "Calibri"
-  font-style: normal
-
-
-.c16
-  height: 0pt
-
-
-table td, table th
-  padding: 0
-
-
-.c9
-  border-right-style: solid
-  padding: 0pt 5.4pt 0pt 5.4pt
-  border-bottom-color: #000000
-  border-top-width: 0pt
-  border-right-width: 0pt
-  border-left-color: #000000
-  vertical-align: top
-  border-right-color: #000000
-  border-left-width: 0pt
-  border-top-style: solid
-  border-left-style: solid
-  border-bottom-width: 0pt
-  width: 233.6pt
-  border-top-color: #000000
-  border-bottom-style: solid
-
-
-.c13
-  border-right-style: solid
-  padding: 0pt 5.4pt 0pt 5.4pt
-  border-bottom-color: #000000
-  border-top-width: 0pt
-  border-right-width: 0pt
-  border-left-color: #000000
-  vertical-align: top
-  border-right-color: #000000
-  border-left-width: 0pt
-  border-top-style: solid
-  border-left-style: solid
-  border-bottom-width: 0pt
-  width: 233.7pt
-  border-top-color: #000000
-  border-bottom-style: solid
-
-
-.c15
-  padding-top: 0pt
-  padding-bottom: 8pt
-  line-height: 1.0791
-  orphans: 2
-  widows: 2
-  text-align: left
-
-
-.c17
-  color: #000000
-  font-weight: 400
-  text-decoration: none
-  vertical-align: baseline
-  font-size: 11pt
-  font-family: "Arial"
-  font-style: normal
-
-
-.checker
-  opacity: 0
-  transition: .2s
-
-.checker1
-  opacity: 0
-  transition: .2s
-
-.checker2
-  opacity: 0
-  transition: .2s
-
-.checker3
-  opacity: 0
-  transition: .2s
-
-.checker4
-  opacity: 0
-  transition: .2s
-
-.checker5
-  opacity: 0
-  transition: .2s
-
-.checker6
-  opacity: 0
-  transition: .2s
-
-
-.right_part_input p
-  margin: 30px 0 0 0
-
-.right_part_input
-  position: fixed
-  right: 0
-  top: 10%
 
 
 .auth
@@ -307,7 +24,7 @@ table td, table th
 .warper_login
   width: 20%
   padding: 50px 30px
-  box-shadow: 1px 6px 24px 0px rgba(34, 60, 80, 0.2)
+  box-shadow: 1px 6px 24px 0 rgba(34, 60, 80, 0.2)
   border-radius: 25px
 
 
@@ -338,13 +55,12 @@ table td, table th
 
   p
     color: white
+    text-align: center
     margin-top: 30px
     font-size: 20px
 
   a
-    color: white
     font-size: 16px
-    text-decoration: none
     border-bottom: 2px solid white
     padding-bottom: 3px
 
@@ -386,11 +102,6 @@ table td, table th
   left: 2%
   top: 2%
   cursor: pointer
-
-.control_panel a
-  text-decoration: none
-  color: black
-
 
 .button_confirm
   display: flex
@@ -485,8 +196,6 @@ header
     align-items: center
 
   a
-    color: white
-    text-decoration: none
     display: flex
     align-items: center
 
@@ -512,29 +221,11 @@ header
 
 
 .button
-  border: 2px solid white
-  padding: 10px 16px
-  font-size: 18px
-  margin-right: 20px
-  transition: .1s
-  color: white
-  text-decoration: none
-
-  &:hover
-    background: white
-    color: black
-    fill: black
+  @include button_border
 
 
 .button_underline
-  border-bottom: 2px solid white
-  padding-bottom: 3px
-  transition: .1s
-  color: white
-  text-decoration: none
-
-  &:hover
-    border-bottom: 2px solid #ABABAB
+  @include button_underline
 
 .main_2
   display: flex
@@ -660,7 +351,6 @@ footer
 
   a
     color: black
-    text-decoration: none
     transition: .2s
 
   li
@@ -709,7 +399,6 @@ footer
     margin-right: 15px
     font-size: 12px
     color: grey
-    text-decoration: none
     border-bottom: 1px solid grey
     padding-bottom: 2px
 
@@ -725,7 +414,6 @@ footer
   text-align: right
   color: #6d6dff
   font-size: 16px
-  text-decoration: none
   padding: 5px 15px
   border-radius: 25px
   border: 1px solid #6d6dff

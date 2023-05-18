@@ -17,14 +17,11 @@ function but_svg_dis(f) {
     }
 }
 
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
+window.onscroll = function() {
     let svg_logo_header = document.querySelector("header").childNodes[1].childNodes[1].childNodes[1].childNodes[1]
     let profile_icon_header = document.querySelector("header").childNodes[1].childNodes[3].childNodes[1]
     let logo_name_header = document.querySelector("header").childNodes[1].childNodes[1].childNodes[1].childNodes[3]
     let nav_name_header = document.querySelector("header").childNodes[1].childNodes[1].childNodes[3]
-
     if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
         document.querySelector("header").style.background = "white";
         logo_name_header.style.color = '#1c1c1c'
@@ -48,11 +45,10 @@ function scrollFunction() {
         svg_logo_header.childNodes[5].style.fill = '#1c1c1c'
         svg_logo_header.childNodes[7].style.fill = '#1c1c1c'
     }
-}
+};
 
 
 let index = 0;
-
 function writeText(text) {
     document.querySelector('.stic_el_span').innerText = text.slice(0, index);
     index++;

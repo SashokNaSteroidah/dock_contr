@@ -33,9 +33,6 @@ document.querySelector('#signup').onclick = () => {
             address: address_user_reg,
             pass: pass_signup
         };
-        document.querySelector('.black_screan').style.display = "none";
-        document.querySelector('.signin_window').style.display = "none";
-        document.querySelector('.signup_window').style.display = "none";
     }
     else{
         document.querySelector('.conf_pass').style.display = 'block'

@@ -13,7 +13,7 @@
         <input style="display: none" type="submit">
         <label for="submin">
             <div id="signin" data-hover="false" onmouseleave="but_svg_dis(this)" onmouseover="but_svg_appear(this)"
-               class="button">Войти
+                 class="button">Войти
                 <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
                      xmlns="http://www.w3.org/2000/svg">
                     <path class="button_arrow"

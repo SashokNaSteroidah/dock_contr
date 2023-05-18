@@ -1,11 +1,11 @@
 function checkSign() {
-    if (localStorage.getItem('is_active') === 'active'){
+    if (localStorage.getItem('is_active') === 'active') {
         window.location.href = "../cabinet";
-    }
-    else {
+    } else {
         console.log('sign')
     }
 }
+
 checkSign()
 
 const users = [
@@ -17,7 +17,7 @@ let arrUser = {}
 
 
 document.querySelector('#signin').onclick = () => {
-    if(document.querySelector('#email_signin').value === users[0] && document.querySelector('#email_password').value === users[1]) {
+    if (document.querySelector('#email_signin').value === users[0] && document.querySelector('#email_password').value === users[1]) {
         localStorage.clear()
         localStorage.setItem('name', 'admin')
         localStorage.setItem('surname', 'admin')
@@ -33,8 +33,7 @@ document.querySelector('#signin').onclick = () => {
         document.querySelector('.black_screan').style.display = "none";
         document.querySelector('.signin_window').style.display = "none";
         document.querySelector('.signup_window').style.display = "none";
-    }
-    else if(document.querySelector('#email_signin').value === arrUser['email'] && document.querySelector('#email_password').value === arrUser['pass']) {
+    } else if (document.querySelector('#email_signin').value === arrUser['email'] && document.querySelector('#email_password').value === arrUser['pass']) {
         localStorage.clear()
         localStorage.setItem('name', arrUser['name'])
         localStorage.setItem('surname', arrUser['surname'])
@@ -51,8 +50,7 @@ document.querySelector('#signin').onclick = () => {
         document.querySelector('.black_screan').style.display = "none";
         document.querySelector('.signin_window').style.display = "none";
         document.querySelector('.signup_window').style.display = "none";
-    }
-    else {
+    } else {
         document.querySelector('.non-right').style.display = "block"
     }
 }
