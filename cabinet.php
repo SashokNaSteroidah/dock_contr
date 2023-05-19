@@ -2,10 +2,6 @@
 <?php require_once 'header.php' ?>
 
 
-<div class="header_cab">
-    <h1>Личный кабинет</h1>
-    <h1>Созданные документы</h1>
-</div>
 
 <div class="cabinet_info">
     <div>
@@ -30,7 +26,10 @@
         <!--        <h2>Пароль</h2>-->
         <!--        <p class="pass"></p>-->
         <!--        <input type="button" value="Изменить пароль">-->
-        <a class="exit_but" href="">Выйти из аккаунта</a>
+        <a data-hover="false" class="button" id="exit_but"
+           href="document_change.php">Выйти
+
+        </a>
     </div>
 
     <div class="document_cabinet">
@@ -39,12 +38,20 @@
             <img class="saved_img_docu" src="../img/saved_document.png" alt="">
             <p class="saved_time"></p>
         </div>
-        <a href="document_change.php" class="creat_new_docu" type="button" value="">Создать новый</a>
+        <a data-hover="false" onmouseleave="but_svg_dis(this)" onmouseover="but_svg_appear(this)" class="button"
+           href="create_choose.php">Создать новый документ
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="button_arrow"
+                      d="M12.9703 0.656879V11.9706L10.9728 11.9883L10.9728 4.06867L2.36373 12.6777L0.949516 11.2635L9.55854 2.65446L1.63894 2.65446L1.65662 0.656879H12.9703Z"
+                      fill="white"/>
+            </svg>
+        </a>
     </div>
 
 </div>
 
-<script src="../js/sripts_cab.js"></script>
+<script src="js/sripts_cab.js"></script>
+<script src="js/script_button.js"></script>
 
 
 <?php require_once 'footer.php' ?>

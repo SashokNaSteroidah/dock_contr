@@ -33,10 +33,7 @@ document.querySelector('.saved_img_docu').onclick = () => {
     window.location.href = "../document_change.php";
 }
 
-document.querySelector('.exit_but').onclick = () => {
+document.querySelector('#exit_but').onclick = () => {
     localStorage.clear()
     window.location.href = "../login";
-}
-document.querySelector('.creat_new_docu').onclick = () => {
-    window.location.href = "../document_change.php";
 }

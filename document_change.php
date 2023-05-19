@@ -2,7 +2,7 @@
 <?php require_once "header.php"; ?>
 
 
-    <div id="docu" class="main">
+    <div id="docu" class="docu_change">
 
         <style>
             .c5 {

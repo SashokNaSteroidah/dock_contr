@@ -242,21 +242,21 @@
                     <h3>Был добавлен API</h3>
                     <p>19.02.2023</p>
                 </a>
-                <article>
+                <a href="">
                     <img src="img/Rectangle%2016.png" alt="">
                     <h3>Был добавлен API</h3>
                     <p>19.02.2023</p>
-                </article>
-                <article>
+                </a>
+                <a href="">
                     <img src="img/Rectangle%2017.png" alt="">
                     <h3>Был добавлен API</h3>
                     <p>19.02.2023</p>
-                </article>
-                <article>
+                </a>
+                <a href="">
                     <img src="img/Rectangle%2018.png" alt="">
                     <h3>Был добавлен API</h3>
                     <p>19.02.2023</p>
-                </article>
+                </a>
             </div>
         </section>
 

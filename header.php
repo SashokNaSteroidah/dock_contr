@@ -1,13 +1,3 @@
-<!--<header>-->
-<!--    <nav>-->
-<!--        <a href="document_change.php">Главная</a>-->
-<!--        <div>-->
-<!--            <a href="cabinet.php">Личный кабинет</a>-->
-<!--            <a class="but_creat_header" href="create_choose.php">Создать документ</a>-->
-<!--        </div>-->
-<!--    </nav>-->
-<!--</header>-->
-
 <header>
     <div>
         <article>
@@ -26,9 +16,9 @@
                 </h1>
             </a>
             <nav>
-                <a href="">О нас</a>
-                <a href="">Новости</a>
-                <a href="">Dev - блог</a>
+                <a href="news.php">О нас</a>
+                <a href="news.php">Новости</a>
+                <a href="dev_blog.php">Dev - блог</a>
             </nav>
         </article>
         <article>
