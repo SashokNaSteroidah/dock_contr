@@ -1,6 +1,4 @@
-<?php require_once 'head.php'; ?>
-<?php require_once "header.php"; ?>
-
+const document_change = `
 
 <div id="docu" class="docu_change">
 
@@ -333,4 +331,6 @@
 </div>
 
 
-<script src="js/scipts.js"></script>
+<script src="/js/scipts.js"></script>`
+
+module.exports = document_change

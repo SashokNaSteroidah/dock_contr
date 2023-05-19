@@ -11,7 +11,7 @@ function add_info() {
         document.querySelector('.address').innerHTML = localStorage.getItem('address')
     }
     else {
-        window.location.href = "../no_auto.php";
+        window.location.href = "../../no_auto.php";
     }
 }
 function saved_check() {
@@ -30,7 +30,7 @@ saved_check()
 add_info()
 
 document.querySelector('.saved_img_docu').onclick = () => {
-    window.location.href = "../document_change.php";
+    window.location.href = "../../document_change.php";
 }
 
 document.querySelector('#exit_but').onclick = () => {

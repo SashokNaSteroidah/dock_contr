@@ -1,3 +1,4 @@
+const head = `
 <!doctype html>
 <html lang="ru">
 <head>
@@ -5,9 +6,10 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/jq.js"></script>
-    <!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>-->
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/jq.js"></script>
     <title>Change Documents</title>
 </head>
-<body>
+<body>`
+module.exports = head;

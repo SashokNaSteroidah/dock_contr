@@ -4,7 +4,8 @@
   "description": "Site, which wanna help you",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,10 @@
     "gulp-connect-php": "^1.0.3",
     "gulp-csso": "^4.0.1",
     "gulp-rename": "^2.0.0",
-    "gulp-sourcemaps": "^3.0.0"
+    "gulp-sourcemaps": "^3.0.0",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }

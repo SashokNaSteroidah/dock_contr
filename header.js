@@ -1,3 +1,4 @@
+const header = `
 <header>
     <div>
         <article>
@@ -25,4 +26,5 @@
             <a href="signin.php">Профиль</a>
         </article>
     </div>
-</header>
+</header>`
+module.exports = header;

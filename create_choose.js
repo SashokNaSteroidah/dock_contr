@@ -1,5 +1,4 @@
-<?php require_once 'head.php' ?>
-<?php require_once 'header.php' ?>
+const create_choose = `
 
 <section class="creat_new_docu_page">
     <div>
@@ -10,31 +9,31 @@
         <aside>
             <article class="saved_docu">
                 <p class="non_create_notify">Вы не создали еще ни одного документа</p>
-                <img class="saved_img_docu" src="../img/saved_document.png" alt="">
+                <img class="saved_img_docu" src="/img/saved_document.png" alt="">
                 <p class="saved_time"></p>
             </article>
         </aside>
         <aside>
             <article class="saved_docu">
-                <img class="templates_img_docu" src="../img/saved_document.png" alt="">
+                <img class="templates_img_docu" src="/img/saved_document.png" alt="">
                 <p class="templates_author"></p>
             </article>
             <article class="saved_docu">
-                <img class="templates_img_docu" src="../img/saved_document.png" alt="">
+                <img class="templates_img_docu" src="/img/saved_document.png" alt="">
                 <p class="templates_author"></p>
             </article>
             <article class="saved_docu">
-                <img class="templates_img_docu" src="../img/saved_document.png" alt="">
+                <img class="templates_img_docu" src="/img/saved_document.png" alt="">
                 <p class="templates_author"></p>
             </article>
             <article class="saved_docu">
-                <img class="templates_img_docu" src="../img/saved_document.png" alt="">
+                <img class="templates_img_docu" src="/img/saved_document.png" alt="">
                 <p class="templates_author"></p>
             </article>
         </aside>
     </div>
 </section>
 
-<script src="js/create_choose.js"></script>
+<script src="/js/create_choose.js"></script>`
 
-<?php require_once 'footer.php' ?>
+module.exports = create_choose

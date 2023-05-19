@@ -1,7 +1,4 @@
-<?php require_once 'head.php' ?>
-<?php require_once 'header.php' ?>
-
-
+const cabinet = `
 
 <div class="cabinet_info">
     <div>
@@ -50,10 +47,8 @@
 
 </div>
 
-<script src="js/sripts_cab.js"></script>
-<script src="js/script_button.js"></script>
+<script src="public/js/sripts_cab.js"></script>
+<script src="public/js/script_button.js"></script>`
 
-
-<?php require_once 'footer.php' ?>
-
+module.exports = cabinet
 

@@ -1,4 +1,4 @@
-<footer>
+const footer = `<footer>
     <article class="up_footer">
         <div>
             <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -74,4 +74,7 @@
     </article>
 
 </footer>
-<?php require_once "end.php"; ?>
+</body>
+</html>`
+
+module.exports = footer
