@@ -11,7 +11,7 @@ function fun_fill() {
             elements[i].style.color = 'white'
         }
     } else {
-        window.location.href = "../no_auto.php";
+        window.location.href = "../../no_auto.php";
     }
 }
     fun_fill()

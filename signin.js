@@ -1,5 +1,4 @@
-<?php require_once "head.php"; ?>
-<?php require_once "header.php"; ?>
+const signin = `
 
 <div>
     <div class="signin">
@@ -29,8 +28,10 @@
     </div>
 
 
-    <script src="js/script_button.js"></script>
-    <script src="js/users_info.js"></script>
-    <script src="js/scriptsSignIn.js"></script>
+    <script src="/js/script_button.js"></script>
+    <script src="/js/users_info.js"></script>
+    <script src="/js/scriptsSignIn.js"></script>
 
-</div>
+</div>`
+
+module.exports = signin

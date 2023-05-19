@@ -1,6 +1,4 @@
-<?php require_once "head.php"; ?>
-<?php require_once "header.php"; ?>
-
+const main = `
     <main>
 
         <section class="main_1">
@@ -20,7 +18,7 @@
                 <a class="button_underline" href="">Прочитать подробнее о возможностях</a>
             </article>
             <article>
-                <img src="img/Group.png" alt="">
+                <img src="/img/Group.png" alt="image">
             </article>
         </section>
 
@@ -238,22 +236,22 @@
             </div>
             <div>
                 <a href="">
-                    <img src="img/Rectangle%2015.png" alt="">
+                    <img src="/img/Rectangle%2015.png" alt="">
                     <h3>Был добавлен API</h3>
                     <p>19.02.2023</p>
                 </a>
                 <a href="">
-                    <img src="img/Rectangle%2016.png" alt="">
+                    <img src="/img/Rectangle%2016.png" alt="">
                     <h3>Был добавлен API</h3>
                     <p>19.02.2023</p>
                 </a>
                 <a href="">
-                    <img src="img/Rectangle%2017.png" alt="">
+                    <img src="/img/Rectangle%2017.png" alt="">
                     <h3>Был добавлен API</h3>
                     <p>19.02.2023</p>
                 </a>
                 <a href="">
-                    <img src="img/Rectangle%2018.png" alt="">
+                    <img src="/img/Rectangle%2018.png" alt="">
                     <h3>Был добавлен API</h3>
                     <p>19.02.2023</p>
                 </a>
@@ -282,13 +280,13 @@
                 </label>
             </div>
             <div>
-                <img src="img/efe-kurnaz-RnCPiXixooY-unsplash%201.png" alt="">
+                <img src="/img/efe-kurnaz-RnCPiXixooY-unsplash%201.png" alt="">
             </div>
         </section>
     </main>
 
 
-    <script src="js/script_button.js"></script>
-    <script src="js/script_main.js"></script>
+    <script src="/js/script_button.js"></script>
+    <script src="/js/script_main.js"></script>`
 
-<?php require_once "footer.php"; ?>
+module.exports = main
