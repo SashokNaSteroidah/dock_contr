@@ -2,7 +2,7 @@ const no_auto = `
 
 <div class="blind_text">
     Пожайлуста авторизуйтесь для начала работы
-    <a href="signin.php">Авторизоваться</a>
+    <a href="signin">Авторизоваться</a>
 </div>
 <div class="blind"></div>`
 

@@ -2,7 +2,7 @@ const header = `
 <header>
     <div>
         <article>
-            <a href="index.php">
+            <a href="/">
                 <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="55" height="55" fill="white"/>
                     <path
@@ -17,13 +17,13 @@ const header = `
                 </h1>
             </a>
             <nav>
-                <a href="about.php">О нас</a>
-                <a href="news.php">Новости</a>
-                <a href="dev_blog.php">Dev - блог</a>
+                <a href="about">О нас</a>
+                <a href="news">Новости</a>
+                <a href="dev_blog">Dev - блог</a>
             </nav>
         </article>
         <article>
-            <a href="signin.php">Профиль</a>
+            <a href="signin">Профиль</a>
         </article>
     </div>
 </header>`
