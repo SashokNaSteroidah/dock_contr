@@ -18,9 +18,9 @@ saved_check()
 temp_check()
 
 document.querySelector('.saved_img_docu').onclick = () => {
-    window.location.href = "../../document_change.php";
+    window.location.href = "/document_change";
 }
 
 document.querySelector('.templates_img_docu').onclick = () => {
-    window.location.href = "../../document_change.php";
+    window.location.href = "/document_change";
 }

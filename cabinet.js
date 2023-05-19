@@ -24,7 +24,7 @@ const cabinet = `
         <!--        <p class="pass"></p>-->
         <!--        <input type="button" value="Изменить пароль">-->
         <a data-hover="false" class="button" id="exit_but"
-           href="document_change.php">Выйти
+           href="/">Выйти
 
         </a>
     </div>
@@ -32,11 +32,11 @@ const cabinet = `
     <div class="document_cabinet">
         <div class="saved_docu">
             <p class="non_create_notify">Вы не создали еще ни одного документа</p>
-            <img class="saved_img_docu" src="../img/saved_document.png" alt="">
+            <img class="saved_img_docu" src="/img/saved_document.png" alt="">
             <p class="saved_time"></p>
         </div>
         <a data-hover="false" onmouseleave="but_svg_dis(this)" onmouseover="but_svg_appear(this)" class="button"
-           href="create_choose.php">Создать новый документ
+           href="create_choose">Создать новый документ
             <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path class="button_arrow"
                       d="M12.9703 0.656879V11.9706L10.9728 11.9883L10.9728 4.06867L2.36373 12.6777L0.949516 11.2635L9.55854 2.65446L1.63894 2.65446L1.65662 0.656879H12.9703Z"
@@ -47,8 +47,8 @@ const cabinet = `
 
 </div>
 
-<script src="public/js/sripts_cab.js"></script>
-<script src="public/js/script_button.js"></script>`
+<script src="/js/sripts_cab.js"></script>
+<script src="/js/script_button.js"></script>`
 
 module.exports = cabinet
 
