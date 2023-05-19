@@ -23,7 +23,7 @@ const signin = `
         </label>
         <p class="non-right" style="display: none">Проверьте еще раз введеные данные</p>
         <article>
-            <p>У вас еще нет аккаунта? Вы можете <a href="signup.php">зарегистрироваться</a></p>
+            <p>У вас еще нет аккаунта? Вы можете <a href="signup">зарегистрироваться</a></p>
         </article>
     </div>
 
