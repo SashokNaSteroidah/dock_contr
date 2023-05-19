@@ -270,7 +270,7 @@
                     <textarea placeholder="Сообщение" name="" id="" cols="30" rows="10"></textarea>
                     <article>
                         <a data-hover="false" onmouseleave="but_svg_dis(this)" onmouseover="but_svg_appear(this)"
-                           class="button" href="">Попробовать
+                           class="button" href="">Оставить
                             <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <path class="button_arrow"

@@ -87,17 +87,13 @@ change4_but.onclick = function () {
     }
 }
 
-let change5 = document.querySelector('.change5');
-let change5_input = document.querySelector('#change5_input');
-let change5_but = document.querySelector('#change5_but');
-
-change5_but.onclick = function () {
-    if (change5_input.value == 0) {
-        document.querySelector('.checker5').style.opacity = 1
+document.querySelector('#change5_but').onclick = function () {
+    if (document.querySelector('#change5_input').value == 0) {
+        document.querySelector('.checker5').style.opacity = 1;
     } else {
-        change5.innerHTML = change1_input.value
-        change5.style.backgroundColor = 'Green'
-        change5.style.color = 'white'
+        document.querySelector('.change5').innerHTML = document.querySelector('#change5_input').value
+        document.querySelector('.change5').style.backgroundColor = 'Green'
+        document.querySelector('.change5').style.color = 'white'
     }
 }
 

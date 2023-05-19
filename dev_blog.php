@@ -5,7 +5,7 @@
 
         <section class="main_news">
             <div>
-                <h2 style="margin: 200px 0 100px">Dev_блог</h2>
+                <h2 style="margin: 200px 0 100px">Dev_blog</h2>
             </div>
             <div>
                 <a href="">
@@ -57,6 +57,6 @@
 
 
     <script src="js/script_button.js"></script>
-    <script src="js/script_news.js"></script>
+    <script src="js/script_header.js"></script>
 
 <?php require_once "footer.php"; ?>

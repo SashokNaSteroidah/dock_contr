@@ -28,6 +28,9 @@
             </div>
         </label>
         <p style="color: white; display: none" class="conf_pass">Проверьте совпадение паролей</p>
+        <article>
+            <p>У вас уже есть аккаунт? Вы можете <a href="signup.php">войти</a> и начать пользоваться веб-приложением</p>
+        </article>
     </div>
 
     <script src="js/script_button.js"></script>

@@ -16,7 +16,7 @@
                 </h1>
             </a>
             <nav>
-                <a href="news.php">О нас</a>
+                <a href="about.php">О нас</a>
                 <a href="news.php">Новости</a>
                 <a href="dev_blog.php">Dev - блог</a>
             </nav>
