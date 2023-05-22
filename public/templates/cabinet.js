@@ -24,7 +24,7 @@ const cabinet = `
         <!--        <p class="pass"></p>-->
         <!--        <input type="button" value="Изменить пароль">-->
         <a data-hover="false" class="button" id="exit_but"
-           href="/">Выйти
+           href="/public">Выйти
 
         </a>
     </div>

@@ -2,109 +2,11 @@
 @import 'mixins'
 @import "reset"
 @import "docu_change"
-
-.contain_docu
-  margin: 0 auto
-  text-align: center
-
-
-
-
-
-.auth
-  width: 100vw
-  height: 100vh
-  display: flex
-  justify-content: center
-  align-items: center
-
-
-.warper_login
-  width: 20%
-  padding: 50px 30px
-  box-shadow: 1px 6px 24px 0 rgba(34, 60, 80, 0.2)
-  border-radius: 25px
-
-
-.signin
-  margin: 350px auto
-  width: 20vw
-
-  h1
-    text-align: center
-    color: white
-    margin-bottom: 30px
-
-  input
-    border: 2px solid white
-    outline: none
-    margin: 5px 0
-    padding: 10px 15px
-    color: white
-    background: $main_color
-
-  label
-    display: flex
-    margin-top: 20px
-    flex-direction: column
-
-  article
-    margin-top: 10px
-
-  p
-    color: white
-    text-align: center
-    margin-top: 30px
-    font-size: 20px
-
-  a
-    font-size: 16px
-    border-bottom: 2px solid white
-    padding-bottom: 3px
-
-#signin
-  text-align: center
-  margin: 0 auto
-  width: 7vw
-
-#signup
-  text-align: center
-  margin: 0 auto
-  width: 14vw
-
-.signup
-  margin: 100px auto 0
-  width: 20vw
-
-  a
-    font-size: 16px
-    border-bottom: 2px solid white
-    padding-bottom: 1px
-
-  article
-    margin-top: 20px
-
-  p
-    color: white
-    line-height: 20px
-
-  h1
-    text-align: center
-    color: white
-
-  input
-    border: 2px solid white
-    outline: none
-    margin: 15px 0
-    padding: 10px 15px
-    color: white
-    background: $main_color
-
-  label
-    display: flex
-    margin-top: 20px
-    flex-direction: column
-
+@import "signin&register"
+@import "footer"
+@import "header"
+@import "other"
+@import "cabinet"
 
 .control_panel
   display: block
@@ -167,43 +69,7 @@
 
 
 
-header
-  width: 100%
-  background: $main_color
-  color: white
-  padding: 20px 0
-  position: fixed
-  transition: .2s
-  z-index: 100
-  top: 0
 
-  div
-    margin: 0 auto
-    justify-content: space-between
-    align-items: center
-    width: 90%
-    display: flex
-
-  svg
-    width: 40px
-    padding-right: 10px
-    height: 40px
-
-  nav
-    padding-left: 20px
-    display: flex
-    align-items: center
-
-    a
-      margin: 0 10px
-
-  article
-    display: flex
-    align-items: center
-
-  a
-    display: flex
-    align-items: center
 
 .main_1
   color: white
@@ -383,64 +249,6 @@ header
     max-height: 30vh
     background: $main_color
 
-footer
-  background: $footer_color
-  padding: 100px 0
-
-  a
-    color: black
-    transition: .2s
-
-  li
-    margin: 0 0 15px 0
-
-  div
-    display: flex
-    align-items: center
-
-.up_footer
-  justify-content: space-between
-  width: 90vw
-  margin: 0 auto
-  display: flex
-  align-items: flex-start
-
-  h2
-    margin-bottom: 20px
-
-  h1
-    font-size: 24px
-    margin-left: 10px
-
-  section
-    display: flex
-
-    article
-      margin-left: 100px
-
-.bot_footer
-  width: 90vw
-  display: flex
-  align-items: center
-  color: grey
-  margin: 100px 0 0 5vw
-
-  h1
-    margin-right: 10px
-    font-size: 12px
-
-  h2
-    font-size: 12px
-    margin-right: 10px
-
-  a
-    margin-right: 15px
-    font-size: 12px
-    color: grey
-    border-bottom: 1px solid grey
-    padding-bottom: 2px
-
-
 .but_creat_header
   margin-left: 20px
   border: white 1px solid
@@ -459,21 +267,6 @@ footer
   h4
     margin: 10px 0
 
-
-// #company, #change1_input, #change2_input, #change3_input, #change4_input, #change5_input, #change6_input
-  margin: 10px 0
-  border-radius: 25px
-  border: 1px solid black
-  padding: 5px 10px
-
-//#company_but, #change1_but, #change2_but, #change3_but, #change4_but, #change5_but, #change6_but
-//  border: none
-//  border-radius: 25px
-//  padding: 7px 13px
-//  cursor: pointer
-//  margin-left: 10px
-//  background: #6d6dff
-//  color: white
 
 
 .saved_time
@@ -534,51 +327,3 @@ footer
   margin: 150px 0
   display: flex
   justify-content: space-around
-
-
-
-@page
-  margin: 20mm 10mm 20mm 20mm
-
-@media print
-  html, body
-    height: 297mm
-    width: 210mm
-
-
-  *, *:before, *:after
-    color: #000
-    box-shadow: none
-    text-shadow: none
-
-
-  ul, ol, table
-    page-break-inside: avoid
-
-  a[href^="http"]:after
-    content: " (" attr(href) ")"
-
-  a:after
-    content: " [" attr(href) "]"
-
-@page :left
-  margin: 1cm 3cm 1cm 1.5cm
-
-
-@keyframes blink
-  0%
-    opacity: 0
-
-  50%
-    opacity: 1
-
-  100%
-    opacity: 0
-
-
-
-
-
-
-
-

@@ -1,6 +1,6 @@
 function checkSign() {
     if (localStorage.getItem('is_active') === 'active') {
-        window.location.href = "localhost:3000/cabinet";
+        window.location.href = "/cabinet";
     } else {
         console.log('sign')
     }
