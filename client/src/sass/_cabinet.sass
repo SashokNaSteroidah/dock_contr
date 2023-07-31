@@ -1,0 +1,133 @@
+@import 'mixins'
+@import 'variables'
+
+.control_panel
+  display: block
+  position: absolute
+  left: 2%
+  top: 2%
+  cursor: pointer
+
+.button_confirm
+  display: flex
+  flex-direction: column
+
+.button_confirm input
+  width: 64%
+
+.cabinet_info
+  display: flex
+  justify-content: space-between
+  width: 70vw
+  color: white
+  margin: 150px auto 200px
+  align-items: center
+  font-size: 20px
+
+
+.cabinet_info h2
+  font-weight: bold
+  padding-bottom: 10px
+
+.cabinet_info p
+  padding: 0 0 20px
+
+
+.saved_notify
+  transition: .2s
+  opacity: 0
+
+.but_creat_header
+  margin-left: 20px
+  border: white 1px solid
+  border-radius: 25px
+  padding: 3px 10px
+
+
+.creat_new_docu
+  text-align: right
+  color: #6d6dff
+  font-size: 16px
+  padding: 5px 15px
+  border-radius: 25px
+  border: 1px solid #6d6dff
+
+  h4
+    margin: 10px 0
+
+.saved_time
+  width: 10vw
+  text-align: center
+  margin-top: 10px
+
+
+.templates_author
+  width: 10vw
+  text-align: center
+  margin: 10px auto 0
+
+
+.creat_new_docu_page
+  width: 90vw
+  margin: 200px auto 0
+  color: white
+
+  div
+    display: flex
+    justify-content: space-between
+
+  h1
+    font-size: 30px
+    font-weight: bold
+
+  aside
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    width: 50%
+
+  h2
+    font-weight: bold
+    margin-top: 20px
+    text-align: right
+
+  article
+    margin-right: 20px
+
+.creat_new_docu_page article h1:not(:first-child)
+  font-size: 30px
+  font-weight: bold
+  text-align: right
+
+.saved_docu
+  padding: 100px 0
+
+  img
+    width: 15vw
+    cursor: pointer
+
+.docu_change
+  margin: 150px 0
+  display: flex
+  justify-content: space-around
+
+.statusBarCabinet
+  margin: 200px auto 0
+  color: white
+  display: flex
+  justify-content: space-around
+  width: 80%
+  h2
+    margin-bottom: 20px
+  div
+    display: flex
+    flex-direction: column
+    div
+      margin-right: 20px
+
+    a
+      text-align: center
+
+.statusBarCabinetAgent
+  color: white
+  

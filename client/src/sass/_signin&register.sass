@@ -1,0 +1,101 @@
+@import 'variables'
+@import 'mixins'
+
+.auth
+  width: 100vw
+  height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+
+
+.warper_login
+  width: 20%
+  padding: 50px 30px
+  box-shadow: 1px 6px 24px 0 rgba(34, 60, 80, 0.2)
+  border-radius: 25px
+
+
+.signin
+  margin: 350px auto
+  width: 20vw
+
+  h1
+    text-align: center
+    color: white
+    margin-bottom: 30px
+
+  label
+    display: flex
+    flex-direction: column
+    margin: 0 auto
+
+  span
+    margin: 0 auto
+    text-align: center
+
+  article
+    margin-top: 10px
+
+
+  a
+    font-size: 16px
+    border-bottom: 2px solid white
+    padding-bottom: 3px
+
+  p
+    color: white
+    text-align: center
+    line-height: 20px
+
+  a
+    border-bottom: 2px solid white
+    padding-bottom: 1px
+
+  @include button_submit
+
+#signin
+  text-align: center
+  margin: 0 auto
+  width: 7vw
+
+#signup
+  text-align: center
+  margin: 0 auto
+  width: 14vw
+
+.signup
+  margin: 200px auto
+  width: 20vw
+
+  a
+    font-size: 16px
+    border-bottom: 2px solid white
+    padding-bottom: 1px
+
+  article
+    margin-top: 20px
+
+  p
+    color: white
+    line-height: 20px
+
+  h1
+    text-align: center
+    color: white
+
+  span
+    text-align: center
+    margin: 10px auto
+    display: block
+
+  @include button_submit
+
+  label
+    display: flex
+    margin-top: 20px
+    flex-direction: column
+
+
+
+

@@ -1,0 +1,43 @@
+@mixin button_border
+  border: 2px solid white
+  padding: 10px 16px
+  font-size: 18px
+  margin-right: 20px
+  transition: .1s
+  color: white
+  text-decoration: none
+
+  &:hover
+    background: white
+    color: black
+    fill: black
+
+@mixin button_underline
+  border-bottom: 2px solid white
+  padding-bottom: 3px
+  transition: .1s
+  color: white
+  text-decoration: none
+
+  &:hover
+    border-bottom: 2px solid #ABABAB
+
+@mixin button_submit
+  input
+    outline: none
+    background: transparent
+    color: white
+    border: none
+    font-size: 16px
+    margin: 0 auto
+
+
+    &:not(.no-style)
+      border: 2px solid white
+      outline: none
+      margin: 15px 0
+      padding: 10px 15px
+      color: white
+      background: $main_color
+
+
