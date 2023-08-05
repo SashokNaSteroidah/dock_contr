@@ -20,14 +20,45 @@ const users: Array<IUsers> = [
 
 interface Option {
     label: string;
-    inn: string;
+    inn: number,
+    city: string,
+    street: string,
+    streetNumber: number,
+    stroyenie: number
+    tel: string,
+    oblast: string,
+    rayon: string
+    email: string
 }
 
 const options: Option[] = [
-    { label: 'Организация 1', inn: '1234567890'},
-    { label: 'Организация 2', inn: '0987654321'},
+    {
+        label: 'Организация 1',
+        inn: 1234567890,
+        city: "Орел",
+        street: "Ленина",
+        streetNumber: 12,
+        stroyenie: 2,
+        tel: "89202231235",
+        oblast: "Орловская",
+        rayon: "Заводской",
+        email: "org@mail.ru"
+    },
+    {
+        label: 'Организация 2',
+        inn: 5192312312,
+        city: "Москва",
+        street: "Булина",
+        streetNumber: 2,
+        stroyenie: 8,
+        tel: "89681231023",
+        oblast: "Московская",
+        rayon: "ЮВАО",
+        email: "shishka@gmail.com"
+    }
 ];
 
+//TODO: Нужно будет разграничить доступ для разных типов организаций
 
 
 function Document_change() {
@@ -136,11 +167,13 @@ function Document_change() {
                                 <p className="c6"><span className="c2">{selected2.label}</span></p>
                                 <p className="c6"><span className="c2">Юридический и почтовый адрес:</span>
                                 </p>
-                                <p className="c6"><span className="c2">____, Калужская область, __________ район,</span>
+                                <p className="c6"><span
+                                    className="c2">{selected2.city}, {selected2.oblast} область , {selected2.rayon} район,</span>
                                 </p>
                                 <p className="c6"><span
-                                    className="c2">Г. ___________, стр. _____,пом.____</span></p>
-                                <p className="c6"><span className="c2">Тел: _____________</span>
+                                    className="c2">Г. {selected2.city}, Улица {selected2.street}, стр. {selected2.stroyenie}</span>
+                                </p>
+                                <p className="c6"><span className="c2">Тел: {selected2.tel}</span>
                                 </p>
                                 <p className="c6 c7"><span className="c2"></span></p>
                                 <p className="c6"><span
@@ -149,20 +182,19 @@ function Document_change() {
                                                                       fontFamily: "calibri,serif",
                                                                       fontWeight: "normal",
                                                                       fontStyle: "normal",
-                                                                      background: company ? "greenyellow" : "yellow"
-                                                                  }}>{selected.label || "Название компании"}</span>
-                                    {selected.inn}</span>
+                                                                      // background: company ? "greenyellow" : "yellow"
+                                    }}>{selected2.label || "Название компании"}</span></span>
                                 </p>
                                 <p className="c6"><span
                                     className="c2">Юридический и почтовый адрес:</span></p>
-                                <p className="c6"><span className="c2">индекс___, город ___________ ул. .</span>
+                                <p className="c6"><span className="c2">город {selected.city} ул. {selected.street}.</span>
                                 </p>
-                                <p className="c6"><span className="c2">___________, стр. _____,пом.____</span>
+                                <p className="c6"><span className="c2">{selected.rayon} район, стр. {selected.stroyenie}</span>
                                 </p>
                                 <p className="c6"><span
-                                    className="c2">Тел:_______________</span></p>
+                                    className="c2">Тел: {selected.tel}</span></p>
                                 <p className="c6"><span
-                                    className="c2">Электронная почта:__________________</span>
+                                    className="c2">Электронная почта: {selected.email}</span>
                                 </p>
                                 <p className="c6 c7"><span className="c2"></span></p></td>
                         </tr>
@@ -313,6 +345,7 @@ function Document_change() {
                     </p>
                 </div>
             </div>
+            //TODO: Нужно будет разделить на части документ и засунуть по компонентами и просто передавать значения и указания от селекта
 
             <div className="right_part_input">
                 <label htmlFor="company">Название компании (от кого)</label><br/>
@@ -323,7 +356,7 @@ function Document_change() {
                         <option key={option.inn} value={option.label}>
                             {option.label}
                         </option>
-                        ))}
+                    ))}
                 </select>
                 <h2>{selected.label}</h2>
                 <p>{selected.inn}</p>
