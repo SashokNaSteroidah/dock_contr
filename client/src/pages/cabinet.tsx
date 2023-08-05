@@ -1,17 +1,15 @@
-import React, {useEffect} from 'react';
+import React from 'react';
+import CabinetPost from "./components/cabinet/cabinetPost";
+import CabinetDocuPosts from "./components/cabinet/cabinetDocuPosts";
 
 function Cabinet() {
 
-
-
-
-    useEffect(() => {
-        fetch('/api/data')
-            .then(res => res.json())
-            .then(data => console.log(data))
-            .catch(error => console.error(error));
-    }, []);
-
+    // useEffect(() => {
+    //     fetch('/api/data')
+    //         .then(res => res.json())
+    //         .then(data => console.log(data))
+    //         .catch(error => console.error(error));
+    // }, []);
 
 
     return (
@@ -61,28 +59,25 @@ function Cabinet() {
                     </a>
                 </div>
             </div>
-            <div className="statusBarCabinetAgent">
-                <h1>
-                    Мои контрагенты
-                </h1>
-
-            </div>
+            <CabinetPost name={"организации"} />
+            <CabinetPost name={"контрагенты"} />
+            <CabinetDocuPosts />
             <div className="cabinet_info">
                 <div className="document_cabinet">
-                    <div className="saved_docu">
-                        <p className="non_create_notify">Вы не создали еще ни одного документа</p>
-                        <img className="saved_img_docu" src="/img/saved_document.png" alt=""/>
-                        <p className="saved_time"></p>
-                    </div>
-                    <a data-hover="false"
-                       className="button"
-                       href="create_choose">Создать новый документ
-                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path className="button_arrow"
-                                  d="M12.9703 0.656879V11.9706L10.9728 11.9883L10.9728 4.06867L2.36373 12.6777L0.949516 11.2635L9.55854 2.65446L1.63894 2.65446L1.65662 0.656879H12.9703Z"
-                                  fill="white"/>
-                        </svg>
-                    </a>
+                    {/*<div className="saved_docu">*/}
+                    {/*    <p className="non_create_notify">Вы не создали еще ни одного документа</p>*/}
+                    {/*    <img className="saved_img_docu" src="/img/saved_document.png" alt=""/>*/}
+                    {/*    <p className="saved_time"></p>*/}
+                    {/*</div>*/}
+                    {/*<a data-hover="false"*/}
+                    {/*   className="button"*/}
+                    {/*   href="create_choose">Создать новый документ*/}
+                    {/*    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">*/}
+                    {/*        <path className="button_arrow"*/}
+                    {/*              d="M12.9703 0.656879V11.9706L10.9728 11.9883L10.9728 4.06867L2.36373 12.6777L0.949516 11.2635L9.55854 2.65446L1.63894 2.65446L1.65662 0.656879H12.9703Z"*/}
+                    {/*              fill="white"/>*/}
+                    {/*    </svg>*/}
+                    {/*</a>*/}
                 </div>
             </div>
         </>

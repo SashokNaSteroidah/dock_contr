@@ -6,9 +6,34 @@ import jsPDF from "jspdf";
 
 pdfMake.vfs = pdfFonts.pdfMake.vfs;
 
+interface IUsers {
+    name: string,
+    inn: number,
+    organisation: string
+}
+
+const users: Array<IUsers> = [
+    {name: "Сашок", inn: 21313123124, organisation: 'ООО "Пушок"'},
+    {name: "Сашок", inn: 21313123124, organisation: 'ООО "Пушок"'},
+    {name: "Сашок", inn: 21313123124, organisation: 'ООО "Пушок"'}
+]
+
+interface Option {
+    label: string;
+    inn: string;
+}
+
+const options: Option[] = [
+    { label: 'Организация 1', inn: '1234567890'},
+    { label: 'Организация 2', inn: '0987654321'},
+];
+
+
 
 function Document_change() {
 
+    const [selected, setSelected] = useState<Option>(options[0]);
+    const [selected2, setSelected2] = useState<Option>(options[0]);
 
     const handleExportClick = () => {
         const element = document.getElementById("docu_change_menu");
@@ -108,7 +133,7 @@ function Document_change() {
                             <td className="c13"><p className="c6"><span
                                 className="c2">Кому: Генеральному директору</span>
                             </p>
-                                <p className="c6"><span className="c2">ООО «Альфа»</span></p>
+                                <p className="c6"><span className="c2">{selected2.label}</span></p>
                                 <p className="c6"><span className="c2">Юридический и почтовый адрес:</span>
                                 </p>
                                 <p className="c6"><span className="c2">____, Калужская область, __________ район,</span>
@@ -125,7 +150,8 @@ function Document_change() {
                                                                       fontWeight: "normal",
                                                                       fontStyle: "normal",
                                                                       background: company ? "greenyellow" : "yellow"
-                                                                  }}>{company || "Название компании"}</span></span>
+                                                                  }}>{selected.label || "Название компании"}</span>
+                                    {selected.inn}</span>
                                 </p>
                                 <p className="c6"><span
                                     className="c2">Юридический и почтовый адрес:</span></p>
@@ -249,7 +275,7 @@ function Document_change() {
                                                                                    fontWeight: "normal",
                                                                                    fontStyle: "normal",
                                                                                    background: company ? "greenyellow" : "yellow"
-                                                                               }}>{company || "Название компании"}</span> . В случае невозврата акта сверки в наш адрес, в течение 10 (десяти) календарных дней с момента получения Вами претензии с актами, последний в праве считать, что Вы согласны с вашей задолженностью.</span>
+                                                                               }}>{selected.label || "Название компании"}</span> . В случае невозврата акта сверки в наш адрес, в течение 10 (десяти) календарных дней с момента получения Вами претензии с актами, последний в праве считать, что Вы согласны с вашей задолженностью.</span>
                     </p>
                     <p className="c0"><span className="c2">При возникновении разногласий, для выверки расчетов обращаться по телефонам (___) _-___-__, в бухгалтерию <span
                         className={"otKogo"}
@@ -258,7 +284,7 @@ function Document_change() {
                             fontWeight: "normal",
                             fontStyle: "normal",
                             background: company ? "greenyellow" : "yellow"
-                        }}>{company || "Название компании"}</span> .</span>
+                        }}>{selected.label || "Название компании"}</span> .</span>
                     </p>
                     <p className="c0"><span
                         style={{fontFamily: "calibri,serif", fontWeight: "normal", fontStyle: "normal"}}>Если вышеуказанные требования Вами не будут выполнены, <span
@@ -266,14 +292,14 @@ function Document_change() {
                         fontFamily: "calibri,serif",
                         fontWeight: "normal",
                         fontStyle: "normal"
-                    }}>{company || "Название компании"}</span> оставляет за собой право, руководствуясь договором и нормами действующего Российского законодательства, перерасчитать образовавшуюся задолженность в сторону увеличения с учетом штрафных санкций и пеней, а так же расходов на представителя и передать материалы на рассмотрение в </span><span
+                    }}>{selected.label || "Название компании"}</span> оставляет за собой право, руководствуясь договором и нормами действующего Российского законодательства, перерасчитать образовавшуюся задолженность в сторону увеличения с учетом штрафных санкций и пеней, а так же расходов на представителя и передать материалы на рассмотрение в </span><span
                         className={"otKogo"}
                         style={{
                             fontFamily: "calibri,serif",
                             fontWeight: "normal",
                             fontStyle: "normal",
                             background: company ? "greenyellow" : "yellow"
-                        }}>{company || "Название компании"}</span><span
+                        }}>{selected.label || "Название компании"}</span><span
                         className="c2"> в порядке установленном действующим законодательством.</span>
                     </p>
                     <div style={{pageBreakBefore: "always"}}></div>
@@ -290,12 +316,31 @@ function Document_change() {
 
             <div className="right_part_input">
                 <label htmlFor="company">Название компании (от кого)</label><br/>
-                <input
-                    type="text"
-                    id="company"
-                    value={company}
-                    onChange={(e) => setCompany(e.target.value)}
-                /><br/>
+                <select value={selected.label} onChange={e => {
+                    setSelected(options.find(o => o.label === e.target.value)!)
+                }}>
+                    {options.map(option => (
+                        <option key={option.inn} value={option.label}>
+                            {option.label}
+                        </option>
+                        ))}
+                </select>
+                <h2>{selected.label}</h2>
+                <p>{selected.inn}</p>
+                <p>Выбран ИНН: {selected.inn}</p>
+                <br/>
+                <label htmlFor="company">Название компании (Кому)</label><br/>
+                <select value={selected2.label} onChange={e => {
+                    setSelected2(options.find(o => o.label === e.target.value)!)
+                }}>
+                    {options.map(option => (
+                        <option key={option.inn} value={option.label}>
+                            {option.label}
+                        </option>
+                    ))}
+                </select>
+                <h2>{selected2.label}</h2>
+                <p>{selected2.inn}</p>
                 {inputValues.map((value, index) => (
                     <div>
                         <label htmlFor="change1_input">{`Изменения ${index + 1}`}</label>
