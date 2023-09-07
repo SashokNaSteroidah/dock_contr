@@ -9,7 +9,7 @@ import Signin from "./pages/signin";
 import Signup from "./pages/signup";
 import Footer from "./component/Footer";
 import Document_change from "./pages/document_change";
-import Not_found from "./pages/not_found";
+// import Not_found from "./pages/not_found";
 import Cabinet from "./pages/cabinet";
 import Create_choose from "./pages/create_choose";
 import Add_news from "./pages/add_news";
@@ -27,7 +27,7 @@ function App() {
                 <Route path="/sign-in" element={<Signin />} />
                 <Route path="/sign-up" element={<Signup />} />
                 <Route path="/construct" element={<Document_change />}/>
-                <Route path="*" element={<Not_found />}/>
+                {/*<Route path="*" element={<Not_found />}/>*/}
                 <Route path="cabinet" element={<Cabinet />}/>
                 <Route path="create-choose" element={<Create_choose />}/>
                 <Route path="add_news" element={<Add_news />}/>
